@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>ICCI – 2019</title>
+    <title>ICPAIR - 2020</title>
     <meta name="description" content="">
 
     <!-- CSS FILES -->
@@ -19,6 +19,7 @@
   <link rel="icon" href="img/favicon.png" type="image/gif">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles/style.min.css">
      <link rel="stylesheet" href="css/cus.css">
     <style>
     * {
@@ -145,48 +146,10 @@ hr.style-seven {
  </head>
  <section id="home">
  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-<div class="container-fluid con__head">
-<div class="col-md-2 icci-logo">
-  <img src="img/icci-logo.png" alt="icci-logo">
-</div>
-<div class="col-md-8 head">
-    <h2><span>International Conference on<br> Innovations in Communications, Computing and Instrumentation</span><br>
-<span class="hsub2">ICCI – 2019</span>
-</h2></div>
-<div class="col-md-2 logo">
-    <img src="img/srm-logo.png" alt="SRM Logo" class="img-responsive">
-</div>
-</div>
-
-<nav class="navbar navbar-inverse nav-cus" data-spy="affix" data-offset-top="197">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-      <!--<a class="navbar-brand" href="#">WebSiteName</a>-->
-    </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="call-for-papers-icci2019.php">CALL FOR PAPERS</a></li>
-          <li><a href="paper-submission-icci2019.php">PAPER SUBMISSION</a></li>
-          <li><a href="registration-icci2019.php">REGISTRATION</a></li>
-          <li><a href="speakers-icci2019.php">SPEAKERS</a></li>
-        <li><a href="#venue">CONFERENCE VENUE</a></li> 
-         <li><a href="team-icci2019.php">TEAM</a></li>
-          <li><a href="contact-icci2019.php">CONTACT</a></li>
-
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>    
+<!--header starts-->
+<?php include("inc/header.php");   ?>
+<!--header ends-->
+  
  
  <div class="wrapper">
   
@@ -199,11 +162,11 @@ hr.style-seven {
    <div class="slide">
                     <img src="images/fraction-slider/base_2.jpg" width="1920" height="auto" data-in="fade" data-out="fade" />
                    
-                    <p class="slide-heading" data-position="130,380" data-in="right"  data-out="left" data-ease-in="jswing">ICCI – 2019 Organized by</p>
+                    <p class="slide-heading" data-position="130,380" data-in="right"  data-out="left" data-ease-in="jswing">ICPAIR - 2020 Organized by</p>
 
-                    <p class="sub-line" data-position="225,380" data-in="right" data-out="left"  data-delay="1500">ECE & EIE Department, Easwari Engineering College, Chennai, India.</p> 
+                    <p class="sub-line" data-position="225,380" data-in="right" data-out="left"  data-delay="1500">Robotics Research Center</p> 
 
-                    <img src="images/clg/s2.png" width="400" height="auto" data-position="50,1200" data-in="left" data-out="fade" style="width:auto; height:auto" data-delay="500">
+                  <!--  <img src="images/clg/s2.png" width="400" height="auto" data-position="50,1200" data-in="left" data-out="fade" style="width:auto; height:auto" data-delay="500">-->
                   <!-- <p class="slide-heading" data-position="130,380" data-in="left"  data-out="left" data-ease-in="jswing">Technical Sponsorship of IEEE Kolkata Section</p> -->
 
                     <a href="registration-icci2019.php"  class="btn btn-default btn-lg" data-position="320,380" data-in="bottom" data-out="bottom" data-delay="2000">Register Now!</a>
@@ -213,10 +176,10 @@ hr.style-seven {
 
                     <img src="images/fraction-slider/base.jpg" width="1920" height="auto" data-in="fade" data-out="fade" />
 
-                    <img src="ieee-logo.png" data-position="60,1200" data-in="bottomLeft" data-out="fade" class="img-responsive data-delay="500">
-                    <p class="slide-heading" data-position="130,380" data-in="top"  data-out="left" data-ease-in="easeOutBounce" data-delay="700">ICCI – 2019 Organized by</p>
+                  <!--  <img src="ieee-logo.png" data-position="60,1200" data-in="bottomLeft" data-out="fade" class="img-responsive data-delay="500">-->
+                    <p class="slide-heading" data-position="130,380" data-in="top"  data-out="left" data-ease-in="easeOutBounce" data-delay="700">ICPAIR - 2020 Organized by</p>
 
-                   <p class="sub-line" data-position="230,380" data-in="right" data-out="left" data-delay="1500">ECE & EIE Department, Easwari Engineering College, Chennai, India.</p>
+                   <p class="sub-line" data-position="230,380" data-in="right" data-out="left" data-delay="1500">Robotics Research Center</p>
 
                     <a href="registration-icci2019.php"  class="btn btn-default btn-lg" data-position="330,380" data-in="bottom" data-out="bottom" data-delay="2000">Register Now!</a>
                 </div> 
@@ -227,10 +190,10 @@ hr.style-seven {
 
                     <img src="images/fraction-slider/base.jpg" width="1920" height="auto" data-in="fade" data-out="fade" />
 
-                    <img src="images/clg/s1.png" width="500" height="auto" data-position="60,1200" data-in="bottomLeft" data-out="fade" style="width:auto; height:auto" data-delay="500">
-                    <p class="slide-heading" data-position="130,380" data-in="top"  data-out="left" data-ease-in="easeOutBounce" data-delay="700">ICCI – 2019 Organized by</p>
+                   <!-- <img src="images/clg/s1.png" width="500" height="auto" data-position="60,1200" data-in="bottomLeft" data-out="fade" style="width:auto; height:auto" data-delay="500">-->
+                    <p class="slide-heading" data-position="130,380" data-in="top"  data-out="left" data-ease-in="easeOutBounce" data-delay="700">ICPAIR - 2020 Organized by</p>
 
-                   <p class="sub-line" data-position="230,380" data-in="right" data-out="left" data-delay="1500">ECE & EIE Department, Easwari Engineering College, Chennai, India.</p>
+                   <p class="sub-line" data-position="230,380" data-in="right" data-out="left" data-delay="1500">Robotics Research Center</p>
 
                     <a href="registration-icci2019.php"  class="btn btn-default btn-lg" data-position="330,380" data-in="bottom" data-out="bottom" data-delay="2000">Register Now!</a>
                 </div> 
@@ -246,20 +209,20 @@ hr.style-seven {
         <!--End Slider-->
 <!--dates section starts-->
 <div class="dates">
-  <div class="col-md-6 dates__style">
-<h2>Conference Date: 23<sup>rd</sup> March 2019</h2>
+  <div class="col-md-8 dates__style">
+<h2>Conference Date: 20<sup>th</sup> March 2020</h2>
 </div>
-<div class="col-md-6 dates__logo">
+<div class="col-md-4 dates__logo">
  <h2><a href="paper-submission-icci2019.php" class="btn btn-danger">Paper Submission</a></h2>
 </div>
 </div>
 <!--dates section ends-->
 <!--scroll section starts here-->
-<div class="scroll">
+<!--<div class="scroll">-->
 <!-- Codes by HTMLcodes.ws -->
-<marquee behavior="alternate" direction="left" scrollamount="7" onmousedown="this.setAttribute('scrollamount', 10, 0);" onmouseup="this.setAttribute('scrollamount', 10, 0);"><b>All Accepted Papers will be submitted to IEEE.</b></marquee>
+<!--<marquee behavior="alternate" direction="left" scrollamount="7" onmousedown="this.setAttribute('scrollamount', 10, 0);" onmouseup="this.setAttribute('scrollamount', 10, 0);"><b>All Accepted Papers will be submitted to IEEE.</b></marquee>-->
 <!--<marquee behavior="alternate" direction="right" scrollamount="7" onmousedown="this.setAttribute('scrollamount', 10, 0);" onmouseup="this.setAttribute('scrollamount', 10, 0);"><span class="si2">Click here for Copyright Form    Download</span></marquee>-->
-</div>
+<!--</div>-->
 <!--scroll section ends here-->
 
 <!--about section starts-->
@@ -274,19 +237,52 @@ hr.style-seven {
     <h3><span>About us</span></h3><hr class="style-two">
     </div>
     <div class="about-style">
-      <h4>ABOUT EEC</h4><hr class="style-seven">
-    <p><b>EASWARI ENGINEERING COLLEGE (EEC)</b>, a division of <b>SRM Group of Educational Institutions</b> for higher learning is functioning under the aegis of "Valliammai Society". The society was found in the year 1975, for promoting the cause of Quality Education, by Dr.T.R.Pachamuthu, an Academician and Educationalist. EEC was instituted in the academic year 1996-1997, with the approval of All India Council for Technical Education (AICTE), New Delhi. The college is affiliated to Anna University, since 2002. The courses have been accredited by National Board of Accreditation (NBA)/AICTE and National Assessment and Accreditation Council (NAAC). The college offers eight Under-Graduate Programmes, eleven Post Graduate Programmes and seven Research Nodal Centers under Anna University covering ‘Engineering & Technology', ‘Computer Applications’ and ‘Management’. The college has a strong Industry-Interaction with reputed National and International organisations. The college has obtained ISO 9001 : 2008 Certification from TUV South Asia.</p>
+      <h4>ABOUT BIHER</h4><hr class="style-seven">
+    <p><b>Bharath Institute of Science and Technology (BIST)</b> was started in Tamil Nadu in 1984 by Sri Lakshmi Ammal Educational Trust, established by the academic visionary Dr.S.Jagathrakshakan. The Bharath Institute of Science and Technology (BIST) was then brought under the ambit of Bharath Institute of Higher Education and Research (BIHER) in January 2003. In 2018, BIHER ranked 2nd among many other prestigious institutes in India by NIRF, and appreciated by NAAC with an ‘A’ grade.
+The institute provides enormous number of opportunities for student development and research. Having several international tie ups with colleges and institutes around the world, this institute is providing the best chances for students with international exposure. BIHER has already organized several student exchange programs with institutes in Russia, Malaysia and more.</p>
 </div>
    <div class="about-style">
-       <h4>ABOUT ECE & EIE DEPARTMENT</h4><hr class="style-seven">
-      <p>In order to meet the wide range of challenging and very rapidly growing global demands for professional, the Department of <b>“Electronics and Communication Engineering”</b> was established since inception of the college in the year 1996. The department has been sanctioned with three <b>P.G. courses namely  M.E. Communication Systems, M.E. Embedded System Technologies.</b> The department has secured permanent affiliation from Anna University and is accredited by NBA. In pursuit of excellence, the department is recognised as nodal center by Anna University to pursue Ph.D. in the areas relevant to Electronics and Communication.</p>
-      <P>The department of <b>Electronics and Instrumentation engineering</b> offers B.E degree program in EIE. The department has secured permanent affiliation from Anna university and it is accredited by NBA and NAAC. To emerge as a ‘Centre of excellence’ for higher studiesand specialization in “Instrumentation” and be a strategic partner in the industrial advancement arena, by imparting quality education towards the holistic development of students, with emphasis on ‘Professional ethics and values’.  Electronics and Instrumentation Engineering become a model department through development of minds, advancement of knowledge and professional skills to meet the global demands. The department has received grant under MODROBS from AICTE, establishment of project Centre for technical education in the institution from AICTE and fund for various programs like seminar, workshop, conference, FDP from DRDO, DIT, CSIR, MOES, ICMR, DBT, Anna University and BRNS. The department has received teaching award in engineering from Staffordshire university,UK and education matter. Faculties in the department have received many awards such as national level best woman engineering teacher award, Best woman engineering college teacher award from IET, promotional award from IET, best professional society mentor award from ISA and best program officer award from YRC. Similarly students also received national level best project award from ISTE, ISA, INAE, GYTA, Texas instruments, Accenture award,AIMO and best TCS project award, best student award from ISTE and IET. </P>
+       <h4>ABOUT THE CONFERENCE</h4><hr class="style-seven">
+      <p> On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Psycho social Aspects in Robotics" will be held on 20 march 2020.</p>
+<p>This conference is based on the theme of, “human-robot psychological synergy, development of psychology in robotic applications, opportunities in the sector of robotics”. It covers on the topic of robopsychology, the correlation between the robot and human beings.</p>
+<p>Robopsychology is the study is the study of personalities and behavior of intelligent machines.
+This conference gives the opportunity to learn new things and understand the current situation of the market and provide a prominent platform by gathering professors, researchers, students, and delegates to exchange new ideas.</p>
 </div>
    <div class="about-style">
-           <h4>ABOUT THE CONFERENCE</h4><hr class="style-seven">
-      <p>The basic premise of industrial automation is to pass on the intelligence to a system with the objective of making it efficient and economical using advancement in communication, control and automation which helps in creating a real time multi-processing, complex adaptive, intelligent, power efficient and safe system for more productive environment in multiple industry verticals. This conference aims to bring together researchers, industry experts, scientists, educators, policy makers and all other related parties to exchange knowledge, experience and discuss current issues, recent developments, standards, techniques, challenges, theories and good practices in engineering and technology.</p>
-<h4>PARTICIPANTS</h4><hr class="style-seven">
-<p>Academicians, Research scholars and UG/PG students in and around the country are invited to participate in the conference.</p>
+           <h4>ABOUT RRC</h4><hr class="style-seven">
+          <p> Robotics is the branch of mechanical engineering, electrical engineering and computer science that deals with the design, construction, operation, and application of robots, as well as computer systems for their control, sensory feedback, and information processing.<p>
+<p>A robotics engineer is a behind the scenes designer who is responsible for creating robots and robotic systems that are able to perform duties that humans are either unable or prefer not to complete for a variety of reasons. Through their creations, a robotics engineer helps to make jobs safer, easier, and more efficient, particularly in the manufacturing industry.</p>
+<p>The goal of the Robotics Research Center is to encourage and facilitate fundamental robotics research, both theoretical and experimental. Participants are exploring basic issues in manipulation, mobile robotics, manufacturing, control, motion planning, graphics, and other topics.</p>
+
+</div>
+
+<div class="about-style">
+           <h4>SCOPE & IMPORTANCE ICPAIR 2020</h4><hr class="style-seven">
+           <P>The scope of the conference is to promote quality research and to bring the scientists, engineers and students under one roof to share their research findings with the global experts. It covers the latest development and future perspective relating to robotics and their psychology.</P>
+</div>
+
+<div class="about-style">
+           <h4 class="upper">Conference Opportunities</h4><hr class="style-seven">
+           <P>The scope of the conference is to promote quality research and to bring the scientists, engineers and students under one roof to share their research findings with the global experts. It covers the latest development and future perspective relating to robotics and their psychology.</P>
+
+           <h5>For Researchers and faculty members</h5>
+        <ol>
+        <li>Speaker Presentations</li>
+       <li> Paper/journal Presentations</li>
+       </ol>
+
+  <h5>For Universities, Associations:</h5>
+
+  <ol>
+ <li>Collaboration proposals</li>
+<li>Group Participation </li>
+</ol>
+  
+  <h5>For Students and Research Scholars:</h5>
+  <ol>
+  <li> Paper presentations</li>
+   <li>Group registrations</li>
+</ol>
 </div>
 
 
@@ -297,18 +293,19 @@ hr.style-seven {
     </div>
 <div class="date-style">
 <h5 class="alert alert-info">PAPER SUBMISSION</h5>
-<ul>
-  <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Paper Submission:</span><span class="date-con"> 8th March 2019</span></li>
+<ul class="ps">
+  <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Openning:</span><span class="date-con"> 10th feb 2020</span></li>
+  <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Closing:</span><span class="date-con"> 29th feb 2020</span></li>
 </ul>
 <hr>
 <h5 class="alert alert-info">NOTIFICATION OF ACCEPTANCE</h5>
 <ul>
-   <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Notification of Acceptance:</span><span class="date-con"> 14th March 2019</span></li>
+   <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"></span><span class="date-con"> 06th March 2020</span></li>
 </ul>
 <hr>
 <h5 class="alert alert-info">REGISTRATION</h5>
 <ul>
-   <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Last Date for Registration:</span><span class="date-con"> 18th March 2019</span></li>
+   <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Last Date for Registration:</span><span class="date-con"> </span></li>
 </ul>
 </div>
 
@@ -317,9 +314,9 @@ hr.style-seven {
     <h3><span>Downloads</span></h3><hr class="style-two">
      </div>
     <div class="date-style"> 
-    <ul>
-    <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="icci-2019.pdf", download>ICCI-2019 Brochure</a></span></li><hr>
-    <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="icci-2019-paper-format.doc", download>Paper Format
+    <ul class="ps">
+    <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="#">ICCI-2019 Brochure</a></span></li>
+    <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="#">Paper Format
     </a></span></li><hr>
 </ul>
 </div>
@@ -367,11 +364,11 @@ hr.style-seven {
         
           <h2>Conference Venue</h2><hr class="conf-hr">
           <div class="parallax__con">
-  <h4>Easwari Engineering College<br><span class="parallex__con--small"> Bharathi Salai, Ramapuram,
-Chennai 600089.</span></h4>
+  <h4>Bharath Institute of Higher Education and Research<br><span class="parallex__con--small"> Selaiyur,
+Chennai 600073.</span></h4>
 
-<h3><span class="parallax__con--date">Conference Date: 23<sup>rd</sup> March 2019</span></h3>
-<h3><span class="parallax__con--query">For any queries regarding paper submission, acceptance please call <span class="query--col1"> +91 4443923043</span> or E-mail to <span class="query--col2">ieeeicci2019@gmail.com</span> </span></h3>
+<h3><span class="parallax__con--date">Conference Date: 20<sup>th</sup> March 2020</span></h3>
+<h3><span class="parallax__con--query">For any queries regarding paper submission, acceptance please call <span class="query--col1"> +91 9840822285</span> or E-mail to <span class="query--col2">icpair@bharathuniv.ac.in</span> </span></h3>
 </div>
       </div>
     </div>
@@ -398,43 +395,18 @@ Chennai 600089.</h4>
   <h3><a href="paper-submission-icci2019.php" class="btn btn-primary">Paper Submission</a></h3> 
 </div>
 <div class="col-md-3 psub__logo">
-<img src="img/icci-logo.png" alt="iee-logo" class="img-responsive">
+<img src="img/icpair-logo.png" alt="iee-logo" class="img-responsive">
   </div>
   </div>
 </div>
 </div>
 <!--paper submission section ends here-->
 <!--footer section starts here-->
-<div class="footer">
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-4 footer__s1">
-  <h2>About Conference</h2><hr class="foot-hr">
-     <p>The primary goal of the conference is to offer an excellent opportunity and platform for proactive interactions among
-professionals, researchers and industrialists to share their knowledge and ideas for achieving focused developments in the field of engineering. This conference will help participants to redefine their horizons in recent innovations through technical paper presentations and panel discussions.</p>
-</div>
-<div class="col-md-4 footer__s2">
-  <h2>Quick Links</h2><hr class="foot-hr">
-  <ul>
-      <li><a href="#">About us</a></li>
-  <li><a href="#">Call for Papers</a></li>
-  <li><a href="#">Paper Submission</a></li>
-  <li><a href="#">Registration</a></li>
-  <li><a href="#">Guidelines</a></li>
-  <li><a href="#">Contact us</a></li>
-  </ul>
-</div>
-<div class="col-md-4 footer__s3">
-  <h2>Locate us on Map</h2><hr class="foot-hr">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d124385.27954446836!2d80.1082056595758!3d13.03312569439632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a5260d62bc6942b%3A0x8cd23707b2ddfb87!2ssrm+easwari+engg+college!3m2!1d13.033135099999999!2d80.17824619999999!5e0!3m2!1sen!2sin!4v1535791954402" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-</div>
-</div>
-</div>
+<?php include("inc/footer.php") ?>
 <!--footer section starts here-->
 <!--copyright section starts here-->
 <div class="copy">
-<p>&copy; Copyright 2018-2019 <a href="#">www.ieeeicci.com</a></p>
+<p>&copy; Copyright 2018-2019 <a href="#">ICPAIR 2020</a></p>
 </div>
 <!--copyright section ends here-->
 </div><!--wrapper ends--->
