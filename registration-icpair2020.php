@@ -1,5 +1,5 @@
 <?php
-$active="speaker";
+$active="registration";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@ $active="speaker";
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>SPEAKERS | ICPAIR-2020</title>
+    <title>REGISTRATION | ICPAIR-2020</title>
     <meta name="description" content="">
 
     <!-- CSS FILES -->
@@ -143,47 +143,138 @@ hr.style-seven {
 {
   padding-top: 18px;
 }
-
-td
+ table thead th
 {
-  line-height: 1.5em;
- font-family: 'Alice', serif;
- font-size: 18px;
+  text-align: center;
+    font-family: 'Alice', serif;
+font-size: 18px;
 }
+.table__reg--h1
+{
+  font-weight: bold;
+    font-family: 'Alice', serif;
+font-size: 18px;
+}
+tbody
+{
+  text-align: center;
+  font-family: 'Alice', serif;
+font-size: 18px;
+}
+.alert-ba{text-align:center;
 
+}
+.alert-ba h5{font-size:18px;
+    line-height:1.5em;
+color:#4d4d4d;
+}
   </style>
  </head>
  <section id="home">
  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<!--header starts-->
-<?php include ("inc/header.php");?>
-<!--header ends-->
+<?php include("inc/header.php");  ?>  
  
  <div class="wrapper">
- <!--speaker section starts here-->
- <div class="head-style">
-    <h3><span>Speakers</span></h3><hr class="style-seven">
+  
+<!--call for paper section starts-->
+<section id="paper__sub">
+<div class="about">
+<div class="col-container">
+  <div class="col1">
+   <!--<div class="row">
+<img src="img/ieee-logo.jpg" alt="ieee-logo" class="img-responsive">
+</div>-->
+     <div class="head-style">
+    <h3><span>Registration</span></h3><hr class="style-two">
     </div>
-<div class="flex-container speaker" style="padding-top:20px; padding-bottom:20px;">
-<div class="f5">
+    <div class="about-style paper__sub--con">
+    
+    <h4>Author/Co-Author Registration Fee Includes:</h4><hr class="style-seven">
+    <ul>
+<li>Participation in the conference </li>
+<li>Lunch</li> 
+<li>Proceeding books with abstracts only</li> 
+<li>Coffee breaks</li> 
+<li>Welcome reception</li> 
+<li>Certificates</li>
+</ul> <hr>
+<h4>Registration Fee</h4><hr class="style-seven">
+<div class="table-responsive">
+  <table class="table table-bordered table__reg">
+    <thead>
+      <tr class="danger">
+       <th>Category</th>
+        <th>Indian(Rupees)</th>
+        <th>Foreign(USD)</th>
+      
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="success">
+        <td align="center">Student (UG/PG) Author</td>
+        <td align="center">3000</td>
+        <td align="center">150</td>
+     
+      </tr>
+      <tr class="info" >
+      <td align="center">Research Scholars and Faculty Author</td>
+        <td>6000</td>
+        <td>200</td>
+        <!--<td>$36</td>-->
+      
+      </tr>
 
-<img src="img/speaker.png" alt="speaker"><hr class="style-two">
 
-   <h2>Dr. Irene Maxine Pepperberg</h2>
-  <h3>Scientist & Professor<br> Harvard Uinversity<br>Cambridege, MA, USA.</h3>
-  <!--<h4><i class="fa fa-phone-square" aria-hidden="true"></i> -<br><i class="fa fa-envelope" aria-hidden="true">-</i> </h4>-->
+       <tr class="warning">
+      <td>Industry and Others</td>
+        <td>7000</td>
+        <td>300</td>
+      </tr>
+      
+ <tr class="success">
+      <td>Listener</td>
+        <td>1000</td>
+        <td>100</td>
+     
+      </tr>
+
+
+      
+    </tbody>
+  </table>
+  <h4>Account Details</h4><hr class="style-seven">
+<div class="alert alert-info alert-ba">
+<h5><b>Center for Robotics & Artificial Intelligence</b><br> Indian Bank<br>
+Selaiyur(Tambaran)<br>
+Current Account No.:6777898347<br>
+IFSC Code: IDIB000S246<br>
+Branch Code: 02505<br>
+MICR Code:600019250
+
+
+
+</h5>
+
 </div>
 
 
+</div>
+</div>
+
+ 
 
 
-
-
-
+  </div>
+  <!--call for paper section ends-->
+  <div class="col2">
+  <?php include("inc/sidebar.php");  ?>  
+  </div>
 
 </div>
 
-  <!--speaker section ends here-->
+</div>
+</section>
+<!--about section ends-->
 <!--venue section starts here-->
 
     <!--<div class="parallax-container">
@@ -229,7 +320,7 @@ Chennai 600089.</h4>
 </div>
 <!--paper submission section ends here-->
 <!--footer section starts here-->
-<?php include("inc/footer.php");?>
+<?php include("inc/footer.php");  ?>  
 <!--footer section starts here-->
 
 </div><!--wrapper ends--->

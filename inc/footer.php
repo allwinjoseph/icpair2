@@ -13,7 +13,7 @@ On behalf of organizing committee and Advisory members, we take the immense plea
   <li><a href="#">Call for Papers</a></li>
   <li><a href="#">Paper Submission</a></li>
   <li><a href="#">Registration</a></li>
-  <li><a href="#">Guidelines</a></li>
+  <!--<li><a href="#">Guidelines</a></li>-->
   <li><a href="#">Contact us</a></li>
   </ul>
 </div>
@@ -24,3 +24,8 @@ On behalf of organizing committee and Advisory members, we take the immense plea
 </div>
 </div>
 </div>
+<!--copyright section starts here-->
+<div class="copy">
+<p>&copy; Copyright 2018-2019 <a href="#">ICRP 2020</a></p>
+</div>
+<!--copyright section ends here-->

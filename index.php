@@ -1,3 +1,8 @@
+<?php
+$active="home";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +10,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>ICPAIR - 2020</title>
+    <title>HOME | ICRP - 2020</title>
     <meta name="description" content="">
 
     <!-- CSS FILES -->
@@ -17,6 +22,7 @@
 <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
   <link rel="icon" href="img/favicon.png" type="image/gif">
+  <link rel="stylesheet" href="styles/style.min.css">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="styles/style.min.css">
@@ -141,7 +147,10 @@ hr.style-seven {
 {
   padding-top: 18px;
 }
-
+.no-active
+{
+    background:none!important;
+}
   </style>
  </head>
  <section id="home">
@@ -162,14 +171,14 @@ hr.style-seven {
    <div class="slide">
                     <img src="images/fraction-slider/base_2.jpg" width="1920" height="auto" data-in="fade" data-out="fade" />
                    
-                    <p class="slide-heading" data-position="130,380" data-in="right"  data-out="left" data-ease-in="jswing">ICPAIR - 2020 Organized by</p>
+                    <p class="slide-heading" data-position="130,380" data-in="right"  data-out="left" data-ease-in="jswing">ICRP - 2020 Organized by</p>
 
                     <p class="sub-line" data-position="225,380" data-in="right" data-out="left"  data-delay="1500">Robotics Research Center</p> 
 
                   <!--  <img src="images/clg/s2.png" width="400" height="auto" data-position="50,1200" data-in="left" data-out="fade" style="width:auto; height:auto" data-delay="500">-->
                   <!-- <p class="slide-heading" data-position="130,380" data-in="left"  data-out="left" data-ease-in="jswing">Technical Sponsorship of IEEE Kolkata Section</p> -->
 
-                    <a href="registration-icci2019.php"  class="btn btn-default btn-lg" data-position="320,380" data-in="bottom" data-out="bottom" data-delay="2000">Register Now!</a>
+                    <a href="registration-icpair2020.php"  class="btn btn-default btn-lg" data-position="320,380" data-in="bottom" data-out="bottom" data-delay="2000">Register Now!</a>
                     
                 </div>
                  <div class="slide">
@@ -177,11 +186,11 @@ hr.style-seven {
                     <img src="images/fraction-slider/base.jpg" width="1920" height="auto" data-in="fade" data-out="fade" />
 
                   <!--  <img src="ieee-logo.png" data-position="60,1200" data-in="bottomLeft" data-out="fade" class="img-responsive data-delay="500">-->
-                    <p class="slide-heading" data-position="130,380" data-in="top"  data-out="left" data-ease-in="easeOutBounce" data-delay="700">ICPAIR - 2020 Organized by</p>
+                    <p class="slide-heading" data-position="130,380" data-in="top"  data-out="left" data-ease-in="easeOutBounce" data-delay="700">ICRP - 2020 Organized by</p>
 
                    <p class="sub-line" data-position="230,380" data-in="right" data-out="left" data-delay="1500">Robotics Research Center</p>
 
-                    <a href="registration-icci2019.php"  class="btn btn-default btn-lg" data-position="330,380" data-in="bottom" data-out="bottom" data-delay="2000">Register Now!</a>
+                    <a href="registration-icpair2020.php"   class="btn btn-default btn-lg" data-position="330,380" data-in="bottom" data-out="bottom" data-delay="2000">Register Now!</a>
                 </div> 
 
 
@@ -191,11 +200,11 @@ hr.style-seven {
                     <img src="images/fraction-slider/base.jpg" width="1920" height="auto" data-in="fade" data-out="fade" />
 
                    <!-- <img src="images/clg/s1.png" width="500" height="auto" data-position="60,1200" data-in="bottomLeft" data-out="fade" style="width:auto; height:auto" data-delay="500">-->
-                    <p class="slide-heading" data-position="130,380" data-in="top"  data-out="left" data-ease-in="easeOutBounce" data-delay="700">ICPAIR - 2020 Organized by</p>
+                    <p class="slide-heading" data-position="130,380" data-in="top"  data-out="left" data-ease-in="easeOutBounce" data-delay="700">ICRP - 2020 Organized by</p>
 
                    <p class="sub-line" data-position="230,380" data-in="right" data-out="left" data-delay="1500">Robotics Research Center</p>
 
-                    <a href="registration-icci2019.php"  class="btn btn-default btn-lg" data-position="330,380" data-in="bottom" data-out="bottom" data-delay="2000">Register Now!</a>
+                    <a href="registration-icpair2020.php"  class="btn btn-default btn-lg" data-position="330,380" data-in="bottom" data-out="bottom" data-delay="2000">Register Now!</a>
                 </div> 
 
                
@@ -213,7 +222,7 @@ hr.style-seven {
 <h2>Conference Date: 20<sup>th</sup> March 2020</h2>
 </div>
 <div class="col-md-4 dates__logo">
- <h2><a href="paper-submission-icci2019.php" class="btn btn-danger">Paper Submission</a></h2>
+ <h2><a href="#" class="btn btn-danger">Paper Submission</a></h2>
 </div>
 </div>
 <!--dates section ends-->
@@ -243,11 +252,24 @@ The institute provides enormous number of opportunities for student development 
 </div>
    <div class="about-style">
        <h4>ABOUT THE CONFERENCE</h4><hr class="style-seven">
-      <p> On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Psycho social Aspects in Robotics" will be held on 20 march 2020.</p>
+      <p> On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Robopsychology" will be held on 20 march 2020.</p>
 <p>This conference is based on the theme of, “human-robot psychological synergy, development of psychology in robotic applications, opportunities in the sector of robotics”. It covers on the topic of robopsychology, the correlation between the robot and human beings.</p>
 <p>Robopsychology is the study is the study of personalities and behavior of intelligent machines.
 This conference gives the opportunity to learn new things and understand the current situation of the market and provide a prominent platform by gathering professors, researchers, students, and delegates to exchange new ideas.</p>
 </div>
+
+
+<div class="about-style">
+           <h4>PAIR LAB</h4><hr class="style-seven">
+           <p>PAIR lab is a place of excellence produced by the combination of intense research and work over the projects. This lab deals with the Psycho-Social Aspects in Robotics (PAIR). The intervention of the psychological aspects over the interaction between the robots and humans is the point of interest, which is analysed and researched in the PAIR lab. </p>
+
+<p>PAIR lab is equipped with the latest and abundant tools at the disposal of students/researchers. It is being constantly upgraded with latest technological equipment and tools for helping students to keep up with today’s advancements in the sector of robotics. Researchers are provided with computers and internet facilities for the sole purpose of their uninterrupted research and analytical work.</p>
+
+<p>Students of BIHER have worked their ideas and took their talent in passion to next level. Over the past decade, projects done in the PAIR lab by the students and researchers have bagged several prizes and awards in the international platform. This lab will continue to serve the passion, talent of the bright minds of BIHER and nurture them to success for an indefinite time into the future. </p>
+
+
+</div>
+
    <div class="about-style">
            <h4>ABOUT RRC</h4><hr class="style-seven">
           <p> Robotics is the branch of mechanical engineering, electrical engineering and computer science that deals with the design, construction, operation, and application of robots, as well as computer systems for their control, sensory feedback, and information processing.<p>
@@ -257,7 +279,7 @@ This conference gives the opportunity to learn new things and understand the cur
 </div>
 
 <div class="about-style">
-           <h4>SCOPE & IMPORTANCE ICPAIR 2020</h4><hr class="style-seven">
+           <h4>SCOPE & IMPORTANCE ICRP 2020</h4><hr class="style-seven">
            <P>The scope of the conference is to promote quality research and to bring the scientists, engineers and students under one roof to share their research findings with the global experts. It covers the latest development and future perspective relating to robotics and their psychology.</P>
 </div>
 
@@ -288,69 +310,7 @@ This conference gives the opportunity to learn new things and understand the cur
 
   </div>
   <div class="col2">
-   <div class="head-style">
-    <h3><span>Important Dates</span></h3><hr class="style-two">
-    </div>
-<div class="date-style">
-<h5 class="alert alert-info">PAPER SUBMISSION</h5>
-<ul class="ps">
-  <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Openning:</span><span class="date-con"> 10th feb 2020</span></li>
-  <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Closing:</span><span class="date-con"> 29th feb 2020</span></li>
-</ul>
-<hr>
-<h5 class="alert alert-info">NOTIFICATION OF ACCEPTANCE</h5>
-<ul>
-   <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"></span><span class="date-con"> 06th March 2020</span></li>
-</ul>
-<hr>
-<h5 class="alert alert-info">REGISTRATION</h5>
-<ul>
-   <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Last Date for Registration:</span><span class="date-con"> </span></li>
-</ul>
-</div>
-
-<!--downloads section-->
-   <div class="head-style">
-    <h3><span>Downloads</span></h3><hr class="style-two">
-     </div>
-    <div class="date-style"> 
-    <ul class="ps">
-    <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="#">ICCI-2019 Brochure</a></span></li>
-    <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="#">Paper Format
-    </a></span></li><hr>
-</ul>
-</div>
-<!--downloads section ends-->
-<!--quick enquiry section starts here-->
-<div class="head-style">
-    <h3><span>Quick Enquiry</span></h3><hr class="style-two">
-     </div>
-     <div class="qf">
-      <h4>Please fill the form.</h4><hr>
- <form action="enquiry.php" method="POST">
-    <div class="form-group">
-      <!--<label for="email">Name:</label>-->
-      <input type="name" class="form-control" id="name" placeholder="Your Name" name="name" required>
-    </div>
-    <div class="form-group">
-      <!--<label for="pwd">Email:</label>-->
-      <input type="email" class="form-control" id="email" placeholder="your E-mail" name="email" required>
-    </div>
-    <div class="form-group">
-      <!--<label for="pwd">Mobile Number:</label>-->
-      <input type="number" class="form-control" id="number" placeholder="Your mobile number" name="number" required>
-    </div>
-    <div class="form-group">
-      <input type="text" class="form-control" id="text" placeholder="Your College/University Name" name="cname" required>
-    </div>
-   <div class="form-group">
-    <textarea class="form-control" id="textarea3" rows="7" placeholder="Message" name="message"></textarea>
-</div>
-    <input type="submit" class="btn btn-default" value="Submit">
-  </form>
-     </div>
-<!--quick enquiry section ends here-->
-  </div>
+  <?php include("inc/sidebar.php");   ?>
 
 </div>
 
@@ -392,7 +352,7 @@ Chennai 600089.</h4>
   <h3>for paper submission please go to </h3>
 </div>
 <div class="col-md-3 psub2">
-  <h3><a href="paper-submission-icci2019.php" class="btn btn-primary">Paper Submission</a></h3> 
+  <h3><a href="#" class="btn btn-primary">Paper Submission</a></h3> 
 </div>
 <div class="col-md-3 psub__logo">
 <img src="img/icpair-logo.png" alt="iee-logo" class="img-responsive">
@@ -404,11 +364,7 @@ Chennai 600089.</h4>
 <!--footer section starts here-->
 <?php include("inc/footer.php") ?>
 <!--footer section starts here-->
-<!--copyright section starts here-->
-<div class="copy">
-<p>&copy; Copyright 2018-2019 <a href="#">ICPAIR 2020</a></p>
-</div>
-<!--copyright section ends here-->
+
 </div><!--wrapper ends--->
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>

@@ -17,7 +17,7 @@
 <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
 <link rel="icon" href="img/favicon.png" type="image/gif">
-
+<link rel="stylesheet" href="styles/style.min.css">
     <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/cus.css">
     <style>

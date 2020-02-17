@@ -1,3 +1,6 @@
+<?php
+$active="call";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -179,67 +182,65 @@ color: red;
     <h3><span>Call for Papers-Topics</span></h3><hr class="style-two">
     </div>
     <div class="about-style">
-      <p>This conference serves as a forum to promote the exchange of the latest advances in communication , control and automation technologies from the research and development perspectives. Authors are invited to submit a full paper in IEEE standard format. The papers will be published in IEEE Xplore. We solicit high quality original research papers ( including significant work in progress) describing original, previously unpublished results in all areas of theory and practice of communication, control and automation advances in engineering and technology. </p>
+      <p>This conference serves as a forum to promote the exchange of the latest advances in robotics, automation, interaction between humans and robots, and psychosocial aspects in robotics from the research and development perspectives. Authors are invited to submit a full paper in Scopus standard format. The papers will be published in Scopus Index. We solicit high quality original research papers (including significant work in progress) describing original, previously unpublished results in all areas of theory and practice of robotics, automation, interaction between humans and robots, and psychosocial aspects in robotics.   </p>
+      <ul class="list__cus">
+          <h4>Scopus</h4>
+          <li>Journal of critical reviews International Journal of Psychosocial Rehabilitation</li>
+          <li>Journal of Advanced Research in Dynamical and Control Systems</li>
+          <li>The Open Biomedical Engineering Journal</li>
+
+<h4 class="left">SCIE</h4>
+
+
+<li>ESIC</li>
+
+<li>Computer communication - Elsevier</li>
+
+<li>Journal of ambient intelligence & humanized computing - Springer</li>
+
+<li>Biosystems - Elsevier</li>
+
+<li>Microprocessors and microsystems - Elsevier</li>
+
+<li>Computational intelligence - Wiley Blackwell</li>
+                            
+
+          </ul>
       <h4>Relevant topics include but are not limited to :</h4>
+
+      
 
  <table class="table table-bordered">
    
     <tbody>
       <tr>
         <td>
-<h4>Scopus</h4>
+
 
           <ul class="list__cus">
-            <li>Process Control</li>
-    <li>System Identification</li>
-       <li>Adaptive Control</li>
-          <li>Non Linear Control</li>
-             <li>Robust, Distributed and Optimized control</li>
-                <li>Virtual instrumentation</li>
-                   <li>Smart Sensors</li>
-                      <li>Industrial Automation</li>
-                         <li>Measurement and Instrumentation</li>
-                            <li>Modelling and Simulation</li>
-                            <li>Intelligent Control</li>
-                            <li>Optimization Techniques</li>
-                            <li>Soft Computing</li>
-                            <li>Artificial Intelligence</li>
-                            <li>Mechtronics</li>
-                            <li>Fault Diagnosis</li>
-                            <li>Fault Tolerant Control</li>
-                            <li>Bio Medical Instrumentation</li>
-                            <li>Robotics and Automation</li>
-                            <li>Navigation, guidance, Control and Instrumentation</li>
-                            
+          <li> Bio-inspired robot design</li>
+         <li>  Automation</li>
+         <li>Human-robot interactions</li>
+         <li>Robot psychology</li>
+         <li>Psychosocial aspects in robotics</li>
+         <li>Design optimization in continuum robots</li>
+         <li>Cleaning robots</li>
 
-          </ul>
-
-
+</ul>
 
 
         </td>
         <td>
+        
         <ul class="list__cus">
-          <li>Flight vehicle Control</li>
-                            <li>RF and Microwave Communication</li>
-                            <li>Remote sensing and GPS</li>
-                            <li>Signal, Image and Video Processing</li>
-                            <li>Speech and  Audio Processing</li>
-                            <li>Wireless Communications</li>
-                             <li>Network Communication </li>
-                             <li>Multimedia Communication</li>
-                            <li>Computer Networks</li>
-                             <li>Wireless Sensor Networks</li>
-                            <li>Data Communication</li>
-                             <li>Fiber and Laser Communication</li>
-                            <li>Satellite network communication</li>
-                             <li>Real time signal Processing technology</li>
-                            <li>VLSI design</li>
-                            <li>Power Electronics</li>
-                            <li>Industrial Drives and Control</li>
-                            <li>Micro Electro Mechanical systems (MEMS)</li>
-                            <li>Power System Modelling, Simulation and Analysis</li>
-                            <li>Renewable Energy Sources and Applications</li>
+       
+      
+         <li>Humanoid robotics</li>
+         <li>Soft robotics</li>
+         <li>Self-healing </li>
+         <li>Soft modular robots</li>
+         <li>Robot design optimization for energy efficiency</li>
+         <li>Wearable robots </li>              
                          
 
         </ul>
@@ -258,68 +259,7 @@ color: red;
   </div>
   <!--call for paper section ends-->
   <div class="col2">
-   <div class="head-style">
-    <h3><span>Important Dates</span></h3><hr class="style-two">
-    </div>
-<div class="date-style">
-<h5 class="alert alert-info">PAPER SUBMISSION</h5>
-<ul>
-  <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Paper Submission:</span><span class="date-con"> 8th March 2019</span></li>
-</ul>
-<hr>
-<h5 class="alert alert-info">NOTIFICATION OF ACCEPTANCE</h5>
-<ul>
-   <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Notification of Acceptance:</span><span class="date-con"> 14th March 2019</span></li>
-</ul>
-<hr>
-<h5 class="alert alert-info">REGISTRATION</h5>
-<ul>
-   <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit">Last Date for Registration:</span><span class="date-con"> 18th March 2019</span></li>
-</ul>
-</div>
-
-<!--downloads section-->
-   <div class="head-style">
-    <h3><span>Downloads</span></h3><hr class="style-two">
-     </div>
-    <div class="date-style"> 
-    <ul>
-    <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="icci-2019.pdf", download>ICCI-2019 Brochure</a></span></li><hr>
-    <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="icci-2019-paper-format.doc", download>Paper Format
-    </a></span></li><hr>
-</ul>
-</div>
-<!--downloads section ends-->
-<!--quick enquiry section starts here-->
-<div class="head-style">
-    <h3><span>Quick Enquiry</span></h3><hr class="style-two">
-     </div>
-     <div class="qf">
-      <h4>Please fill the form.</h4><hr>
-  <form action="enquiry.php" method="POST">
-    <div class="form-group">
-      <!--<label for="email">Name:</label>-->
-      <input type="name" class="form-control" id="name" placeholder="Your Name" name="name" required>
-    </div>
-    <div class="form-group">
-      <!--<label for="pwd">Email:</label>-->
-      <input type="email" class="form-control" id="email" placeholder="your E-mail" name="email" required>
-    </div>
-    <div class="form-group">
-      <!--<label for="pwd">Mobile Number:</label>-->
-      <input type="number" class="form-control" id="number" placeholder="Your mobile number" name="number" required>
-    </div>
-    <div class="form-group">
-      <input type="text" class="form-control" id="text" placeholder="Your College/University Name" name="cname" required>
-    </div>
-   <div class="form-group">
-    <textarea class="form-control" id="textarea3" rows="7" placeholder="Message" name="message"></textarea>
-</div>
-    <input type="submit" class="btn btn-default" value="Submit">
-  </form>
-     </div>
-<!--quick enquiry section ends here-->
-  </div>
+  <?php include("inc/sidebar.php");  ?>
 
 </div>
 
@@ -361,10 +301,10 @@ Chennai 600089.</h4>
   <h3>for paper submission please go to </h3>
 </div>
 <div class="col-md-3">
-  <h3><a href="paper-submission-icci2019.php" class="btn btn-primary">Paper Submission</a></h3> 
+  <h3><a href="#" class="btn btn-primary">Paper Submission</a></h3> 
 </div>
 <div class="col-md-3 psub__logo">
-<img src="img/icci-logo.png" alt="iee-logo" class="img-responsive">
+<img src="img/icpair-logo.png" alt="iee-logo" class="img-responsive">
   </div>
   </div>
 </div>
@@ -373,11 +313,7 @@ Chennai 600089.</h4>
 <!--footer section starts here-->
 <?php include("inc/footer.php");  ?>
 <!--footer section starts here-->
-<!--copyright section starts here-->
-<div class="copy">
-<p>&copy; Copyright 2018-2019 <a href="#">www.ieeeicci.com</a></p>
-</div>
-<!--copyright section ends here-->
+
 </div><!--wrapper ends--->
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>

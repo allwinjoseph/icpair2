@@ -1,13 +1,13 @@
 <header>
 <div class="container-fluid con__head">
 <div class="col-md-2 icci-logo">
-  <img src="img/icpair-logo.jpg" alt="icci-logo">
+  <img src="img/icpair-logo.png" alt="icci-logo">
 </div>
-<div class="col-md-7 head">
-    <h2><span>International Conference on<br>Psycho social Aspects in Robotics</span><br>
-<span class="hsub2">ICPAIR – 2020</span>
+<div class="col-md-8 head">
+    <h2><span>International Conference on<br>Robopsychology</span><br>
+<span class="hsub2">ICRP – 2020</span>
 </h2></div>
-<div class="col-md-3 logo">
+<div class="col-md-2 logo logo-biher">
     <img src="img/biher-logo.png" alt="biher Logo" class="img-responsive">
 </div>
 </div>
@@ -25,15 +25,15 @@
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="call-for-papers-icpair2020.php">CALL FOR PAPERS</a></li>
-          <li><a href="paper-submission-icci2019.php">PAPER SUBMISSION</a></li>
-          <li><a href="registration-icci2019.php">REGISTRATION</a></li>
-          <li><a href="speaker-icpair2020.php">SPEAKERS</a></li>
-        <li><a href="#venue">CONFERENCE VENUE</a></li> 
-         <li><a href="team-icpair2020.php">TEAM</a></li>
-          <li><a href="contact-icci2019.php">CONTACT</a></li>
+          <li class=" <?php if ($active=="home") {echo "active"; } else  {echo "noactive";}?>" ><a href="index.php#home">HOME</a></li>
+          <li><a href="index.php#about">ABOUT</a></li>
+          <li class=" <?php if ($active=='call'){echo 'active';} ?>"><a href="call-for-papers-icpair2020.php">CALL FOR PAPERS</a></li>
+          <!--<li><a href="paper-submission-icci2019.php">PAPER SUBMISSION</a></li>-->
+          <li class=" <?php if ($active=='registration'){echo 'active';} ?>"><a href="registration-icpair2020.php">REGISTRATION</a></li>
+          <li class=" <?php if ($active=='speaker'){echo 'active';} ?>"><a href="speaker-icpair2020.php">SPEAKERS</a></li>
+        <li><a href="index.php#venue">CONFERENCE VENUE</a></li> 
+         <li  class=" <?php if ($active=='team'){echo 'active';} ?>"><a href="team-icpair2020.php">COMMITTEE</a></li>
+          <li class=" <?php if ($active=='contact'){echo 'active';} ?>"><a href="contact-icpair2020.php">CONTACT</a></li>
 
         </ul>
       </div>

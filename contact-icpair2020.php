@@ -1,3 +1,6 @@
+<?php
+$active="contact";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +8,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>ICCI – 2019</title>
+    <title>Contact Us | ICPAIR-2020</title>
     <meta name="description" content="">
 
     <!-- CSS FILES -->
@@ -17,6 +20,7 @@
 <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
 <link rel="icon" href="img/favicon.png" type="image/gif">
+<link rel="stylesheet" href="styles/style.min.css">
     <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/cus.css">
     <style>
@@ -153,48 +157,8 @@ color: red;
  <section id="home">
  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<div class="container-fluid con__head">
-<div class="col-md-2 icci-logo">
-  <img src="img/icci-logo.png" alt="icci-logo">
-</div>
-<div class="col-md-8 head">
-    <h2><span>International Conference on<br> Innovations in Communications, Computing and Instrumentation</span><br>
-<span class="hsub2">ICCI – 2019</span>
-</h2></div>
-<div class="col-md-2 logo">
-    <img src="img/srm-logo.png" alt="SRM Logo" class="img-responsive">
-</div>
-</div>
+<?php include("inc/header.php")  ?> 
 
-<nav class="navbar navbar-inverse nav-cus" data-spy="affix" data-offset-top="197">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-      <!--<a class="navbar-brand" href="#">WebSiteName</a>-->
-    </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="index.php">HOME</a></li>
-          <li><a href="index.php#about">ABOUT</a></li>
-          <li><a href="call-for-papers-icci2019.php">CALL FOR PAPERS</a></li>
-          <li><a href="paper-submission-icci2019.php">PAPER SUBMISSION</a></li>
-          <li><a href="registration-icci2019.php">REGISTRATION</a></li>
-          <li><a href="speakers-icci2019.php">SPEAKERS</a></li>
-          <li><a href="index.php#venue">CONFERENCE VENUE</a></li> 
-         <li><a href="team-icci2019.php">TEAM</a></li>
-          <li   class="active"><a href="contact-icci2019.php">CONTACT</a></li>
-
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>    
- 
  <div class="wrapper">
      
 <div class="col-container">
@@ -203,23 +167,23 @@ color: red;
    <div class="head-style">
     <h3><span>Our Location</span></h3><hr class="style-two">
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d124385.27954446836!2d80.1082056595758!3d13.03312569439632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a5260d62bc6942b%3A0x8cd23707b2ddfb87!2ssrm+easwari+engg+college!3m2!1d13.033135099999999!2d80.17824619999999!5e0!3m2!1sen!2sin!4v1535791954402" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d62223.9688389269!2d80.10700887348085!3d12.907846433449903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a525f27f279193b%3A0xeff41b9ffdb92590!2sbharath%20university!3m2!1d12.907765099999999!2d80.1420286!5e0!3m2!1sen!2sin!4v1581671096546!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 <div class="col6">
   <div class="head-style">
     <h3><span>Contact Info</span></h3><hr class="style-two">
     </div>
     <ul class="contact__info">
-                                    <li><i class="fa fa-map-marker"></i> <p><strong>Address</strong>: Easwari Engineering College<br> &nbsp;&nbsp;Ramapuram, Chennai-600089</span>  </p></li>
-                                    <li><i class="fa fa-user"></i> <p><strong>Contact Person</strong>: Mr. R. Praveen Kumar |Mob: +91 9994254328<br>&nbsp;&nbsp;Mrs. K. Kalaivani  |Mob: +91 9444257594</p></li>
+                                    <li><i class="fa fa-map-marker"></i> <p><strong>Address</strong>: Bharath Institute of Higher Education & Research.<br> &nbsp;&nbsp;Selaiyur, Chennai-600073</span>  </p></li>
+                                    <li><i class="fa fa-user"></i> <p><strong>Contact Number</strong>: +91 9566203308, +91 7010344024</p></li>
               
               
-              <li><i class="fa fa-phone"></i> <p><strong>Phone</strong>: For any queries please call to: +91 4443923043<br>&nbsp;&nbsp;Monday to Saturday 9:00 AM to 5:00 PM Indian Timings. </p>
+              <li><i class="fa fa-phone"></i> <p><strong>Phone</strong>: For any queries please call to: <br>&nbsp;&nbsp;Monday to Saturday 9:00 AM to 5:00 PM Indian Timings. </p>
                </li>
 
               
-              <li><i class="fa fa-envelope"></i> <p><strong>Email</strong>: ieeeicci2019@gmail.com</p></li>
-                                    <li><i class="fa fa-globe"></i> <p><strong>Web</strong>: <a href="#" target="_blank">www.ieeeicci.com</a>, <a href="www.srmeaswari.ac.in">www.srmeaswari.ac.in</a></p></li>
+              <li><i class="fa fa-envelope"></i> <p><strong>Email</strong>: icpair@bharathuniv.ac.in</p></li>
+                                    <li><i class="fa fa-globe"></i> <p><strong>Web</strong>: <a href="#" target="_blank">www.bharathuniv.ac.in</a></p></li>
                                 </ul> 
 </div>
 </div>
@@ -296,48 +260,19 @@ Chennai 600089.</h4>
   <h3>for paper submission please go to </h3>
 </div>
 <div class="col-md-3">
-  <h3><a href="paper-submission-icci2019.php" class="btn btn-primary">Paper Submission</a></h3> 
+  <h3><a href="#" class="btn btn-primary">Paper Submission</a></h3> 
 </div>
 <div class="col-md-3 psub__logo">
-<img src="img/icci-logo.png" alt="iee-logo" class="img-responsive">
+<img src="img/icpair-logo.png" alt="iee-logo" class="img-responsive">
   </div>
   </div>
 </div>
 </div>
 <!--paper submission section ends here-->
 <!--footer section starts here-->
-<div class="footer">
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-4 footer__s1">
-  <h2>About Conference</h2><hr class="foot-hr">
-     <p>The primary goal of the conference is to offer an excellent opportunity and platform for proactive interactions among
-professionals, researchers and industrialists to share their knowledge and ideas for achieving focused developments in the field of engineering. This conference will help participants to redefine their horizons in recent innovations through technical paper presentations and panel discussions.</p>
-</div>
-<div class="col-md-4 footer__s2">
-  <h2>Quick Links</h2><hr class="foot-hr">
- <ul>
-      <li><a href="index.php#about">About us</a></li>
-  <li><a href="call-for-papers-icci2019.php">Call for Papers</a></li>
-  <li><a href="paper-submission-icci2019.php">Paper Submission</a></li>
-  <li><a href="registration-icci2019.php">Registration</a></li>
-  <li><a href="team-icci2019.php">Team</a></li>
-  <li><a href="contact-icci2019.php">Contact us</a></li>
-  </ul>
-</div>
-<div class="col-md-4 footer__s3">
-  <h2>Locate us on Map</h2><hr class="foot-hr">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d124385.27954446836!2d80.1082056595758!3d13.03312569439632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a5260d62bc6942b%3A0x8cd23707b2ddfb87!2ssrm+easwari+engg+college!3m2!1d13.033135099999999!2d80.17824619999999!5e0!3m2!1sen!2sin!4v1535791954402" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-</div>
-</div>
-</div>
-<!--footer section starts here-->
-<!--copyright section starts here-->
-<div class="copy">
-<p>&copy; Copyright 2018-2019 <a href="#">www.ieeeicci.com</a></p>
-</div>
-<!--copyright section ends here-->
+<?php include("inc/footer.php")  ?>
+
+
 </div><!--wrapper ends--->
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>

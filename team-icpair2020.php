@@ -1,3 +1,7 @@
+<?php
+$active="team";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +9,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>ICCI – 2019</title>
+    <title>TEAM | ICPAIR-2020</title>
     <meta name="description" content="">
 
     <!-- CSS FILES -->
@@ -19,6 +23,7 @@
 <link rel="icon" href="img/favicon.png" type="image/gif">
     <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/cus.css">
+     <link rel="stylesheet" href="styles/style.min.css">
     <style>
     * {
     box-sizing: border-box;
@@ -166,54 +171,46 @@ td
       <tr>
         <td class="team-h1">General Chair</td>
         <td>:</td>
-        <td>Dr. J. Sundeep Aanand, Chairman, BIHER.</td>
+        <td>Dr. J. Sundeep Aanand, Chairman.</td>
        
       </tr>
       <tr>
         <td class="team-h1">General Co-Chair</td>
         <td>:</td>
-        <td>Dr. V. Kanagasabai, Vice Chancellor, BIHER.<br> Dr. S. Bhuminathan, Registrar, BIHER.</td>
+        <td>Dr. V. Kanagasabai, Vice Chancellor.<br> Dr. S. Bhuminathan, Registrar.</td>
        
       </tr>
-       <tr>
-        <td class="team-h1">Program Chair</td>
+     
+        <td class="team-h1">Organizing Committee</td>
         <td>:</td>
-        <td class="capi">Dr. S. Senthilkumar, Director, Robotics Research center.<br>Dr.Jaishankar Bharathraj, Co-Director, Robotics Research center.</td>
+        <td class="capi">
+        Dr. R.M . Suresh Pro Vice Chancellor.<br>
+        Dr. R. Hariprakash, Ad. Registrar.<br>
+        Dr. J. Hameed Hussain, Dean(Engg.,).<br>    
+        Dr. R. Venkatesh Babu, Dean(Aca.,).<br>
+        Dr. M. Sundararajan, Dean(R&D).<br>
+        Dr. M. Sundararaj, HOD, Aeronatical Department.<br>
+        Mr. J. Rajasekhar, AO.<br>
+      
+     
+    
+    </td>
        
-      </tr>
-        <tr>
-        <td class="team-h1">Program Co-Chair</td>
+      </tr> 
+      <tr>
+        <td class="team-h1">Program Committee</td>
         <td>:</td>
-        <td>Dr.M.Achudhan </td>
+        <td class="capi">Dr. S. Senthilkumar, Director, Robotics Research center.<br>Dr.Jaishankar Bharathraj, Co-Director, Robotics Research center.<br> Dr.M.Achudhan, Professor, Mechanical Department.</td>
        
-      </tr>
+    
 
+      <tr>
       <tr>
         <td class="team-h1">Publication Chair</td>
         <td>:</td>
-        <td>Dr. R. Udayakumar Dean Publication, BIHER. </td>
+        <td>Dr. R. Udayakumar, Professor, Department of Information Technology. </td>
        
       </tr>
-
-      <tr>
-        <td class="team-h1">Finance Chair</td>
-        <td>:</td>
-        <td>Mr. Murukesh<br>Mr. Sivachandran </td>
-       
-      </tr> 
-      <tr>
-        <td class="team-h1">Awards Chair</td>
-        <td>:</td>
-        <td>  </td>
-       
-      </tr> 
-
-      <tr>
-        <td class="team-h1">Social Media Chair</td>
-        <td>:</td>
-        <td>  </td>
-       
-      </tr> 
 
 
        
@@ -225,29 +222,39 @@ td
     <tbody>
 
     
-    <tr>
-        <td class="team-h1">Organizing Committee</td>
-        <td>:</td>
-        <td class="capi">
-        Dr. R.M . Suresh Pro Vice Chancellor, BIHER.<br>
-        Dr. R. Hariprakash, Ad. Registrar, BIHER.<br>
-        Dr. J. Hameed Hussain, Dean(Engg.,) BIHER.<br>    
-        Dr. R. Venkatesh Babu, Dean(Aca.,) BIHER.<br>
-        Dr. M. Sundararajan, Dean(R&D) BIHER<br>
-        Mr. J. Rajasekhar, AO, BIHER<br>
-        Dr. S. Senthilkumar, Director, Robotics Research center.<br>Dr.Jaishankar Bharathraj, Co-Director, Robotics Research center.<br>Dr. M. Sundararaj, HOD, Aeronatical Department.<br>
-        Dr. P. Naveenchandran, HOD, Automobile Department.<br>
-        Dr. P. Sengottuven, HOD, Mechatronics Department.
-    
-    </td>
-       
-      </tr> 
+   
 
 
       <tr>
         <td class="team-h1">Advisory Committee</td>
         <td>:</td>
-        <td>Dr. Chriss Krageloh, Head of Research, AUT University  </td>
+        <td>Dr. Baskar Rao, Managing Director,
+KIMS group of Hospitals<br> Mr. K. M. Vishwanath‌, Designator Partner‌, KMP International LLP. <br> Dr. Suresh M, Professor/Registrar
+Computer Science & Engineering, DMI College of Engineering.<br>
+
+Dr. T. X. A. Ananth, St.josephs university of technology, Tanzania,Africa.<br>
+
+Dr.Arun s, Head -Research, Prathyusha college of engineering.<br>
+
+Ms. Aymasheva Yana, Director, Department of International Programs<br>
+
+Dr.Vijayakumar, HOD, EEE, SRM University<br>
+
+Dr.Gowri, Director - EMRC, Anna University<br>
+
+Dr.Vasuki, Professor, SSN College of Engineering<br>
+
+Dr.Shanmugha Priya, Associate professor, SSN College of Engineering
+
+
+
+
+
+
+
+
+
+</td>
        
       </tr> 
 
@@ -255,27 +262,38 @@ td
         <td class="team-h1">Technical Committee</td>
         <td>:</td>
         <td>
-                Dr. S. Prakash<br>
-                Dr. T. R. Rangaswamy <br>
-                Dr. P. Naveenchandran, HOD, Automobile Department<br>
-                Mr. K. Lingeswaran <br>
-                Dr. L. Jeyanthi Rebecca, HOD, IBT Department<br>
-                Dr. M. Sangeetha, HOD, ECE Department<br>
-                Dr. K. P. Kaliyamurthie<br>
-                Dr. S. p. Vijay Ragavan <br>
-                Dr. B. Karthick <br>
-
+        Dr. P. Naveenchandran, HOD, Department of Automobile.<br>
+        Dr. P. Sengottuven, HOD, Department of Mechatronics .<br>
+                 Dr. K. Balasubramanian, HOD, Department of Mechanical.<br>
+                Dr. S. Prakash, Associate Professor, Department of EEE.<br>
+                Mr. K. Lingeswaran, Associate Professor, Department of EEE.<br>
+                Dr. K. P. Kaliyamurthie, HOD, Department of CSE.  <br>
+                Dr. S. p. Vijay Ragavan, Associate Professor, Department of EEE. <br>
+                Dr. B. Karthick Associate Professor, Department of ECE.<br>
+                
+            
         </td>
 </tr>
+
+
+<tr>
+        <td class="team-h1">Finance Committee</td>
+        <td>:</td>
+        <td>Mr. S. Murugesh <br> Mr. M. Sivachandran<br>Mr. M. Krishna Kumar
+    </td>
+       
+      </tr>
+
 
 <tr>
         <td class="team-h1">Registration Committee</td>
         <td>:</td>
-        <td>Mrs. Ramyapriya<br>
-            Mrs. Anitha<br>
-            Mrs. Aarthi<br>
-            Ms. Aarthi<br>
-            Ms. Aishwariya
+        <td>
+        Mrs. Anitha Sampathkumar<br>
+        Ms. V.M. Ramaapriyaa<br>
+            Ms. S. Aarthisuriya<br>
+            Ms. J. Aarthy<br>
+            Mrs. J. Aiswarya
     </td>
        
       </tr>
@@ -283,33 +301,60 @@ td
       <tr>
         <td class="team-h1">Website & Poster Committee</td>
         <td>:</td>
-        <td> </td>
+        <td>Mr. A.stephen anto jegan <br>Mr. J. Allwin</td>
+       
        
       </tr> 
 
       <tr>
         <td class="team-h1">Hospitality & Photgraphy Committee</td>
         <td>:</td>
-        <td>Mr. Ramamoorthi<br>
-            Mr. Sidarath Raj<br>
-            Mr. Ponnuvel <br>
-            Mr. Sangeeth<br>
+        <td>Mr. R.S Sidharath Raj<br>Mr. Ramamoorthi<br>
+      
+            Mr. T. Ponnuvel <br>
+            Mr. R. Sangeeth Kumar<br>
             Mr. Ramamoorthi
 
      </td>
        
       </tr> 
       <tr>
-        <td class="team-h1">Student Volunteer Chair/td>
+        <td class="team-h1">Student Volunteer Chair</td>
         <td>:</td>
-        <td>Mr. Srinath </td>
+        <td>Mr. B.Srinath </td>
        
       </tr> 
 
       <tr>
         <td class="team-h1">Student Volunteer Co-Chair</td>
         <td>:</td>
-        <td> </td>
+        <td>Mr. S.Pradeepan<br>
+
+Mr. D.Sarathkumar<br>
+
+Mr. S.Abdul Faheem<br>
+
+Mr. R.Rathish Krishnan<br>
+
+Mr. A.P.Sharan<br>
+
+Mr. M.A.Natarajan<br>
+
+Mr. A.Nizamudeen<br>
+
+Mr. A.H.Methil Krishnan<br>
+
+Mr. Ratala Venkata Madhav<br>
+
+Mr. J.Gopala Krishna Mohan Rao<br>
+
+Mr. Dhruv Alok Sangal<br>
+
+Mr. D.Clinton Antony<br>
+
+Mr. P.Vibin Sri Balaji<br>
+
+Mr. Aluvala Keerthan Chand </td>
        
       </tr> 
   
@@ -354,10 +399,10 @@ Chennai 600089.</h4>
   <h3>for paper submission please go to </h3>
 </div>
 <div class="col-md-3">
-  <h3><a href="paper-submission-icci2019.php" class="btn btn-primary">Paper Submission</a></h3> 
+  <h3><a href="#" class="btn btn-primary">Paper Submission</a></h3> 
 </div>
 <div class="col-md-3 psub__logo">
-<img src="img/icci-logo.png" alt="iee-logo" class="img-responsive">
+<img src="img/icpair-logo.png" alt="iee-logo" class="img-responsive">
   </div>
   </div>
 </div>
@@ -366,11 +411,7 @@ Chennai 600089.</h4>
 <!--footer section starts here-->
 <?php include("inc/footer.php");?>
 <!--footer section starts here-->
-<!--copyright section starts here-->
-<div class="copy">
-<p>&copy; Copyright 2018-2019 <a href="#">www.ieeeicci.com</a></p>
-</div>
-<!--copyright section ends here-->
+
 </div><!--wrapper ends--->
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
