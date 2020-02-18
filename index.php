@@ -252,7 +252,7 @@ The institute provides enormous number of opportunities for student development 
 </div>
    <div class="about-style">
        <h4>ABOUT THE CONFERENCE</h4><hr class="style-seven">
-      <p> On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Robopsychology" will be held on 20 march 2020.</p>
+      <p> On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Robotics-Psychology" will be held on 20 march 2020.</p>
 <p>This conference is based on the theme of, “human-robot psychological synergy, development of psychology in robotic applications, opportunities in the sector of robotics”. It covers on the topic of robopsychology, the correlation between the robot and human beings.</p>
 <p>Robopsychology is the study is the study of personalities and behavior of intelligent machines.
 This conference gives the opportunity to learn new things and understand the current situation of the market and provide a prominent platform by gathering professors, researchers, students, and delegates to exchange new ideas.</p>

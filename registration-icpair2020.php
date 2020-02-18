@@ -189,15 +189,15 @@ color:#4d4d4d;
     </div>
     <div class="about-style paper__sub--con">
     
-    <h4>Author/Co-Author Registration Fee Includes:</h4><hr class="style-seven">
-    <ul>
+   <!-- <h4>Author/Co-Author Registration Fee Includes:</h4><hr class="style-seven">-->
+  <!--  <ul>
 <li>Participation in the conference </li>
 <li>Lunch</li> 
 <li>Proceeding books with abstracts only</li> 
 <li>Coffee breaks</li> 
 <li>Welcome reception</li> 
 <li>Certificates</li>
-</ul> <hr>
+</ul> <hr>-->
 <h4>Registration Fee</h4><hr class="style-seven">
 <div class="table-responsive">
   <table class="table table-bordered table__reg">

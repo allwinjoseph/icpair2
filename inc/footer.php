@@ -4,15 +4,16 @@
 <div class="col-md-4 footer__s1">
   <h2>About Conference</h2><hr class="foot-hr">
      <p>
-On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Psycho social Aspects in Robotics" will be held on 20 march 2020. This conference is based on the theme of, “human-robot psychological synergy, development of psychology in robotic applications, opportunities in the sector of robotics”. It covers on the topic of robopsychology, the correlation between the robot and human beings.</p>
+On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Robotics-Psychology" will be held on 20 march 2020. This conference is based on the theme of, “human-robot psychological synergy, development of psychology in robotic applications, opportunities in the sector of robotics”. It covers on the topic of robopsychology, the correlation between the robot and human beings.</p>
 </div>
 <div class="col-md-4 footer__s2">
   <h2>Quick Links</h2><hr class="foot-hr">
   <ul>
-      <li><a href="#">About us</a></li>
-  <li><a href="#">Call for Papers</a></li>
+      <li><a href="index.php#aboutus">About us</a></li>
+  <li><a href="call-for-papers-icpair2020.php">Call for Papers</a></li>
+  <li><a href="journals-icpair2020.php">Journals</a></li>
   <li><a href="#">Paper Submission</a></li>
-  <li><a href="#">Registration</a></li>
+  <li><a href="registration-icpair2020.php">Registration</a></li>
   <!--<li><a href="#">Guidelines</a></li>-->
   <li><a href="#">Contact us</a></li>
   </ul>

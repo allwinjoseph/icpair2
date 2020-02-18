@@ -183,7 +183,7 @@ color: red;
     </div>
     <div class="about-style">
       <p>This conference serves as a forum to promote the exchange of the latest advances in robotics, automation, interaction between humans and robots, and psychosocial aspects in robotics from the research and development perspectives. Authors are invited to submit a full paper in Scopus standard format. The papers will be published in Scopus Index. We solicit high quality original research papers (including significant work in progress) describing original, previously unpublished results in all areas of theory and practice of robotics, automation, interaction between humans and robots, and psychosocial aspects in robotics.   </p>
-      <ul class="list__cus">
+     <!-- <ul class="list__cus">
           <h4>Scopus</h4>
           <li>Journal of critical reviews International Journal of Psychosocial Rehabilitation</li>
           <li>Journal of Advanced Research in Dynamical and Control Systems</li>
@@ -205,7 +205,7 @@ color: red;
 <li>Computational intelligence - Wiley Blackwell</li>
                             
 
-          </ul>
+          </ul>-->
       <h4>Relevant topics include but are not limited to :</h4>
 
       

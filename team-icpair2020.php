@@ -162,7 +162,7 @@ td
  <div class="wrapper">
   <!--team section starts here-->
 <div class="head-style">
-    <h3><span>Team</span></h3><hr class="style-two">
+    <h3><span>Committee</span></h3><hr class="style-two">
     </div>
 <div class="flex-container">
   <div class="f3">
@@ -189,12 +189,40 @@ td
         Dr. J. Hameed Hussain, Dean(Engg.,).<br>    
         Dr. R. Venkatesh Babu, Dean(Aca.,).<br>
         Dr. M. Sundararajan, Dean(R&D).<br>
+        Mr. M. Prem Jeya Kumar, COE.<br>
         Dr. M. Sundararaj, HOD, Aeronatical Department.<br>
         Mr. J. Rajasekhar, AO.<br>
       
      
     
     </td>
+       
+      </tr> 
+
+      
+      <tr>
+        <td class="team-h1">Advisory Committee</td>
+        <td>:</td>
+        <td>
+        Dr.Chris Krageloh, Associate Professor,<br> Department of Psychology,<br> Auckland University of Technology, Auckland, Newzealand.<br><br>
+
+
+
+        Ms. Aymasheva Yana, Director,<br> Department of International Programs,<br> Ural Federal University, Russia.<br><br>
+        Dr. T. X. A. Ananth, Director,<br>International Relations office,<br> St.josephs university of technology, <br> Tanzania, Africa.<br><br>
+
+        Dr. Baskar Rao, Managing Director,<br>
+KIMS group of Hospitals.<br><br>
+
+ Mr. K. M. Vishwanath‌, Designator Partner‌,<br> KMP International LLP. <br><br> Dr. Suresh M, Professor/Registrar<br>
+Computer Science & Engineering,<br> DMI College of Engineering.<br><br>
+Dr.Gowri, Director - EMRC,<br> Anna University.<br><br>
+Dr.Arun s, Head -Research,<br> Prathyusha college of engineering.<br><br>
+Dr.Vijayakumar, HOD, EEE, <br> SRM University.<br><br>
+Dr.Vasuki, Professor,<br> SSN College of Engineering.<br><br>
+Dr.Shanmugha Priya, Associate professor,<br> SSN College of Engineering.
+
+</td>
        
       </tr> 
       <tr>
@@ -221,56 +249,18 @@ td
     <table class="table team">
     <tbody>
 
-    
-   
-
-
-      <tr>
-        <td class="team-h1">Advisory Committee</td>
-        <td>:</td>
-        <td>Dr. Baskar Rao, Managing Director,
-KIMS group of Hospitals<br> Mr. K. M. Vishwanath‌, Designator Partner‌, KMP International LLP. <br> Dr. Suresh M, Professor/Registrar
-Computer Science & Engineering, DMI College of Engineering.<br>
-
-Dr. T. X. A. Ananth, St.josephs university of technology, Tanzania,Africa.<br>
-
-Dr.Arun s, Head -Research, Prathyusha college of engineering.<br>
-
-Ms. Aymasheva Yana, Director, Department of International Programs<br>
-
-Dr.Vijayakumar, HOD, EEE, SRM University<br>
-
-Dr.Gowri, Director - EMRC, Anna University<br>
-
-Dr.Vasuki, Professor, SSN College of Engineering<br>
-
-Dr.Shanmugha Priya, Associate professor, SSN College of Engineering
-
-
-
-
-
-
-
-
-
-</td>
-       
-      </tr> 
-
       <tr>
         <td class="team-h1">Technical Committee</td>
         <td>:</td>
         <td>
         Dr. P. Naveenchandran, HOD, Department of Automobile.<br>
-        Dr. P. Sengottuven, HOD, Department of Mechatronics .<br>
+        Dr. P. Sengottuvel, HOD, Department of Mechatronics .<br>
                  Dr. K. Balasubramanian, HOD, Department of Mechanical.<br>
+                 Dr. K. P. Kaliyamurthie, HOD, Department of CSE.  <br>
                 Dr. S. Prakash, Associate Professor, Department of EEE.<br>
-                Mr. K. Lingeswaran, Associate Professor, Department of EEE.<br>
-                Dr. K. P. Kaliyamurthie, HOD, Department of CSE.  <br>
                 Dr. S. p. Vijay Ragavan, Associate Professor, Department of EEE. <br>
-                Dr. B. Karthick Associate Professor, Department of ECE.<br>
-                
+                Dr. B. Karthick, Associate Professor, Department of ECE.<br>
+                Mr. K. Lingeswaran, Associate Professor, Department of EEE.
             
         </td>
 </tr>
@@ -301,7 +291,7 @@ Dr.Shanmugha Priya, Associate professor, SSN College of Engineering
       <tr>
         <td class="team-h1">Website & Poster Committee</td>
         <td>:</td>
-        <td>Mr. A.stephen anto jegan <br>Mr. J. Allwin</td>
+        <td>Mr. A.stephen Anto Jegan <br>Mr. J. Allwin</td>
        
        
       </tr> 
@@ -309,11 +299,11 @@ Dr.Shanmugha Priya, Associate professor, SSN College of Engineering
       <tr>
         <td class="team-h1">Hospitality & Photgraphy Committee</td>
         <td>:</td>
-        <td>Mr. R.S Sidharath Raj<br>Mr. Ramamoorthi<br>
+        <td>Mr. R. Ramamoorthi<br> Mr. M. Ramamoorthi<br>Mr. R.S Sidharath Raj<br>
       
             Mr. T. Ponnuvel <br>
             Mr. R. Sangeeth Kumar<br>
-            Mr. Ramamoorthi
+           
 
      </td>
        

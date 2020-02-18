@@ -1,5 +1,5 @@
 <?php
-$active="speaker";
+$active="journals";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@ $active="speaker";
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>SPEAKERS | ICPAIR-2020</title>
+    <title>Journals | ICPAIR-2020</title>
     <meta name="description" content="">
 
     <!-- CSS FILES -->
@@ -20,7 +20,6 @@ $active="speaker";
 <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
 <link rel="icon" href="img/favicon.png" type="image/gif">
-<link rel="stylesheet" href="styles/style.min.css">
     <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/cus.css">
     <style>
@@ -143,47 +142,130 @@ hr.style-seven {
 {
   padding-top: 18px;
 }
+table ul li:before {
 
-td
-{
-  line-height: 1.5em;
- font-family: 'Alice', serif;
- font-size: 18px;
+  content: '✓';
+  font-size: 18px;
+margin-right : 10px;
+color: red;
 }
+
 
   </style>
  </head>
  <section id="home">
  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!--header starts-->
-<?php include ("inc/header.php");?>
-<!--header ends-->
+<?php include("inc/header.php") ?>
+<!--header-ends-->
  
  <div class="wrapper">
- <!--speaker section starts here-->
- <div class="head-style">
-    <h3><span>Speakers</span></h3><hr class="style-seven">
+  
+     
+<!--scroll section starts here-->
+<div class="scroll">
+<!-- Codes by HTMLcodes.ws -->
+<!--<marquee behavior="alternate" direction="left" scrollamount="7" onmousedown="this.setAttribute('scrollamount', 10, 0);" onmouseup="this.setAttribute('scrollamount', 10, 0);">All Accepted Papers will be submitted for Inclusion in IEEE Xplore Digital Library.</marquee>-->
+<!--<marquee behavior="alternate" direction="right" scrollamount="7" onmousedown="this.setAttribute('scrollamount', 10, 0);" onmouseup="this.setAttribute('scrollamount', 10, 0);"><span class="si2">Click here for Copyright Form    Download</span></marquee>-->
+</div>
+<!--scroll section ends here-->
+
+<!--call for paper section starts-->
+<section id="call-paper">
+<div class="about">
+<div class="col-container">
+  <div class="col1">
+   <!--<div class="row">
+<img src="img/ieee-logo.jpg" alt="ieee-logo" class="img-responsive">
+</div>-->
+     <div class="head-style">
+    <h3><span>Journals</span></h3><hr class="style-two">
     </div>
-<div class="flex-container speaker" style="padding-top:20px; padding-bottom:20px;">
-<div class="f5">
+    <div class="about-style">
+     
+      <ul class="list__cus">
+          <h4>Scopus</h4>
+          <li>Journal of critical reviews International Journal of Psychosocial Rehabilitation</li>
+          <li>Journal of Advanced Research in Dynamical and Control Systems</li>
+          <li>The Open Biomedical Engineering Journal</li>
 
-<img src="img/speaker.png" alt="speaker"><hr class="style-two">
+<h4 class="left">SCIE</h4>
 
-   <h2>Dr. Irene Maxine Pepperberg</h2>
-  <h3>Scientist & Professor<br> Harvard University<br>Cambridge, MA, USA.</h3>
-  <!--<h4><i class="fa fa-phone-square" aria-hidden="true"></i> -<br><i class="fa fa-envelope" aria-hidden="true">-</i> </h4>-->
+
+<li>ESIC</li>
+
+<li>Computer communication - Elsevier</li>
+
+<li>Journal of ambient intelligence & humanized computing - Springer</li>
+
+<li>Biosystems - Elsevier</li>
+
+<li>Microprocessors and microsystems - Elsevier</li>
+
+<li>Computational intelligence - Wiley Blackwell</li>
+                            
+
+          </ul>
+   
+
+      
+
+ <!--<table class="table table-bordered">
+   
+    <tbody>
+      <tr>
+        <td>
+
+
+          <ul class="list__cus">
+          <li> Bio-inspired robot design</li>
+         <li>  Automation</li>
+         <li>Human-robot interactions</li>
+         <li>Robot psychology</li>
+         <li>Psychosocial aspects in robotics</li>
+         <li>Design optimization in continuum robots</li>
+         <li>Cleaning robots</li>
+
+</ul>
+
+
+        </td>
+        <td>
+        
+        <ul class="list__cus">
+       
+      
+         <li>Humanoid robotics</li>
+         <li>Soft robotics</li>
+         <li>Self-healing </li>
+         <li>Soft modular robots</li>
+         <li>Robot design optimization for energy efficiency</li>
+         <li>Wearable robots </li>              
+                         
+
+        </ul>
+     </td>
+      </tr>
+   
+   
+    </tbody>
+  </table>-->
+
 </div>
 
+ 
 
 
-
-
-
-
+  </div>
+  <!--call for paper section ends-->
+  <div class="col2">
+  <?php include("inc/sidebar.php");  ?>
 
 </div>
 
-  <!--speaker section ends here-->
+</div>
+</section>
+<!--about section ends-->
 <!--venue section starts here-->
 
     <!--<div class="parallax-container">
@@ -229,7 +311,7 @@ Chennai 600089.</h4>
 </div>
 <!--paper submission section ends here-->
 <!--footer section starts here-->
-<?php include("inc/footer.php");?>
+<?php include("inc/footer.php");  ?>
 <!--footer section starts here-->
 
 </div><!--wrapper ends--->
