@@ -4,7 +4,8 @@
   <img src="img/icpair-logo.png" alt="icci-logo">
 </div>
 <div class="col-md-8 head">
-    <h2><span>International Conference on<br>Robotics-Psychology</span><br>
+    <h2><span>International Conference on<br>Robot Psychology
+</span><br>
 <span class="hsub2">ICRP – 2020</span>
 </h2></div>
 <div class="col-md-2 logo logo-biher">

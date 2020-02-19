@@ -17,24 +17,24 @@ require("class.phpmailer.php");
 $mail = new PHPMailer();
 
 $mail->IsSMTP();
-$mail->Host = "www.allevainfotech.com";
+$mail->Host = "www.icpair2020.com";
 
 $mail->SMTPAuth = true;
 //$mail->SMTPSecure = "ssl";
 $mail->Port = 587;
-$mail->Username = "enquiry@ieeeicci.com"; // SMTP username
-$mail->Password = "icci_2019"; // SMTP password
+$mail->Username = "enquiry@icpair2020.com"; // SMTP username
+$mail->Password = "icpair2020"; // SMTP password
 
 // $email is the user's email address the specified
 // on our contact us page. We set this variable at
 // the top of this page with:
 // $email = $_REQUEST['email'] ;
 $mail->From = "enquiry@ieeeicci.com";
-$mail->FromName = "IEEEICCI quick enquiry";
-$mail->AddAddress("ieeeicci2019@gmail.com");
+$mail->FromName = "icrp2020 quick enquiry";
+$mail->AddAddress("icpair@bharathuniv.ac.in");
 $mail->IsHTML(true);
 
-$mail->Subject = "This is a Quick Enquiry email from www.ieeeicci.com";
+$mail->Subject = "This is a Quick Enquiry email from www.icrp2020.com";
 $mail->Body = "Name of the person: $name"."<br>"."E-mail: $email"."<br>"."Contact Number: $number"."<br>"."College/University Name: $cname"."<br>"."Message: $message";
 
 

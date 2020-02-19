@@ -10,7 +10,12 @@ $active="home";
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>HOME | ICRP - 2020</title>
+    <meta name="title" content="International Conference on Robot Psychology ICRP – 2020">
+<meta name="description" content="We Invite participants around the world to attend the International Conference on Robotics-Psychology which will be held on 20 march 2020.">
+<meta name="keywords" content="International conference in chennai, ICRP2020, Bharath university conferences ">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
     <meta name="description" content="">
 
     <!-- CSS FILES -->
@@ -252,7 +257,7 @@ The institute provides enormous number of opportunities for student development 
 </div>
    <div class="about-style">
        <h4>ABOUT THE CONFERENCE</h4><hr class="style-seven">
-      <p> On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Robotics-Psychology" will be held on 20 march 2020.</p>
+      <p> On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Robot Psychology" will be held on 20 march 2020.</p>
 <p>This conference is based on the theme of, “human-robot psychological synergy, development of psychology in robotic applications, opportunities in the sector of robotics”. It covers on the topic of robopsychology, the correlation between the robot and human beings.</p>
 <p>Robopsychology is the study is the study of personalities and behavior of intelligent machines.
 This conference gives the opportunity to learn new things and understand the current situation of the market and provide a prominent platform by gathering professors, researchers, students, and delegates to exchange new ideas.</p>

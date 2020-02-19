@@ -4,7 +4,7 @@
 <div class="col-md-4 footer__s1">
   <h2>About Conference</h2><hr class="foot-hr">
      <p>
-On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Robotics-Psychology" will be held on 20 march 2020. This conference is based on the theme of, “human-robot psychological synergy, development of psychology in robotic applications, opportunities in the sector of robotics”. It covers on the topic of robopsychology, the correlation between the robot and human beings.</p>
+On behalf of organizing committee and Advisory members, we take the immense pleasure in inviting participants around the world to attend the "International Conference on Robot Psychology" will be held on 20 march 2020. This conference is based on the theme of, “human-robot psychological synergy, development of psychology in robotic applications, opportunities in the sector of robotics”. It covers on the topic of robopsychology, the correlation between the robot and human beings.</p>
 </div>
 <div class="col-md-4 footer__s2">
   <h2>Quick Links</h2><hr class="foot-hr">
