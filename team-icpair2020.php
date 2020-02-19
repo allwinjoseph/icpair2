@@ -171,7 +171,7 @@ td
       <tr>
         <td class="team-h1">General Chair</td>
         <td>:</td>
-        <td>Dr. J. Sundeep Aanand, Chairman.</td>
+        <td>Dr. J. Sundeep Aanand, President.</td>
        
       </tr>
       <tr>
@@ -189,7 +189,7 @@ td
         Dr. J. Hameed Hussain, Dean(Engg.,).<br>    
         Dr. R. Venkatesh Babu, Dean(Aca.,).<br>
         Dr. M. Sundararajan, Dean(R&D).<br>
-        Mr. M. Prem Jeya Kumar, COE.<br>
+        Dr. M. Prem Jeya Kumar, COE.<br>
         Dr. M. Sundararaj, HOD, Aeronatical Department.<br>
         Mr. J. Rajasekhar, AO.<br>
       
@@ -204,7 +204,7 @@ td
         <td class="team-h1">Advisory Committee</td>
         <td>:</td>
         <td>
-        Dr.Chris Krageloh, Associate Professor,<br> Department of Psychology,<br> Auckland University of Technology, Auckland, Newzealand.<br><br>
+        Dr.Chris Krageloh, Associate Professor, Head of Research,<br> Department of Psychology,<br> Auckland University of Technology, Auckland, Newzealand.<br><br>
 
 
 
