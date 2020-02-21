@@ -12,10 +12,10 @@ On behalf of organizing committee and Advisory members, we take the immense plea
       <li><a href="index.php#aboutus">About us</a></li>
   <li><a href="call-for-papers-icpair2020.php">Call for Papers</a></li>
   <li><a href="journals-icpair2020.php">Journals</a></li>
-  <li><a href="#">Paper Submission</a></li>
+  <li><a href="https://easychair.org/conferences/?conf=internationalconfere">Paper Submission</a></li>
   <li><a href="registration-icpair2020.php">Registration</a></li>
   <!--<li><a href="#">Guidelines</a></li>-->
-  <li><a href="#">Contact us</a></li>
+  <li><a href="contact-icpair2020.php">Contact us</a></li>
   </ul>
 </div>
 <div class="col-md-4 footer__s3">
@@ -27,6 +27,6 @@ On behalf of organizing committee and Advisory members, we take the immense plea
 </div>
 <!--copyright section starts here-->
 <div class="copy">
-<p>&copy; Copyright 2018-2019 <a href="#">ICRP 2020</a></p>
+<p>&copy; Copyright <?php echo date(Y);?> .<a href="www.ircp2020.in">www.icrp2020.in</a></p>
 </div>
 <!--copyright section ends here-->

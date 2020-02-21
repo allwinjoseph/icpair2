@@ -8,7 +8,7 @@ $active="registration";
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>REGISTRATION | ICPAIR-2020</title>
+    <title>Registration | ICPAIR-2020</title>
     <meta name="description" content="">
 
     <!-- CSS FILES -->
@@ -20,174 +20,37 @@ $active="registration";
 <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
 <link rel="icon" href="img/favicon.png" type="image/gif">
-<link rel="stylesheet" href="styles/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/cus.css">
+     <link rel="stylesheet" href="styles/style.min.css">
     <style>
     * {
     box-sizing: border-box;
 }
 
-.col-container {
-    display: table;
-    width: 100%;
-}
-.col1 {
-    display: table-cell;
-    padding: 16px;
-    width:70%;
-      background: #F5F5F5;
-      border-right:2px solid #fff;
-      border-radius: 5px;
-}
-
-@media only screen and (max-width: 600px) {
-    .col1 { 
-        display: block;
-        width: 100%;
-      
-    }
-}
-.col2{
-    display: table-cell;
-    padding: 16px;
-    width:30%;
-    background: #F5F5F5;
-    border-left:2px solid #fff;
-    border-radius: 5px;
-}
-
-@media only screen and (max-width: 600px) {
-    .col2{ 
-        display: block;
-        width: 100%;
-    }
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("img/par.jpg");
-
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding-top: 30px;
-    margin-bottom: -7px;
-  }
-
-.psub
-{
-      background: #f2f2f2;
-    padding: 30px 0;
-    overflow: hidden;
-}
-.footer
-{
-  width:100%;
-  min-height: 300px;
-  background: url("img/fbg.png");
-  padding-top: 20px;
-  padding-bottom: 10px;
-
-}
-.about-style p
-{
-      text-indent: 50px;
-font-family: 'Sawarabi Mincho', sans-serif;
-      font-size: 16px;
-      color: #000000;
-
-    }
-.about-style h4
-{
-    font-family: 'Alice', serif;
-    font-weight: bold;
-    color: #004d80;
-}
-
-hr.style-seven {
-    overflow: visible; /* For IE */
-    height: 30px;
-    border-style: solid;
-    border-color: #33adff;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-    margin-bottom: -10px;
-}
-
-.sub-line
-{
-
- font-family: 'Alice', serif;
- border-radius: 5px!important;
-
-
-}
-.slide-heading
-{
- 
-    font-family: 'Sawarabi Mincho', sans-serif!important;
-}
-.icci-logo img
-{
-  display: block;
-  margin:0px auto;
-}
-.icci-logo
-{
-  padding-top: 18px;
-}
- table thead th
-{
-  text-align: center;
-    font-family: 'Alice', serif;
-font-size: 18px;
-}
-.table__reg--h1
-{
-  font-weight: bold;
-    font-family: 'Alice', serif;
-font-size: 18px;
-}
-tbody
-{
-  text-align: center;
-  font-family: 'Alice', serif;
-font-size: 18px;
-}
-.alert-ba{text-align:center;
-
-}
-.alert-ba h5{font-size:18px;
-    line-height:1.5em;
-color:#4d4d4d;
-}
+.col-container{display:table;width:100%}.col1{display:table-cell;padding:16px;width:70%;background:#f5f5f5;border-right:2px solid #fff;border-radius:5px}@media only screen and (max-width:600px){.col1{display:block;width:100%}}.col2{display:table-cell;padding:16px;width:30%;background:#f5f5f5;border-left:2px solid #fff;border-radius:5px}@media only screen and (max-width:600px){.col2{display:block;width:100%}}.parallax{background-image:url(img/par.jpg);min-height:500px;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover;text-align:center;padding-top:30px;margin-bottom:-7px}.psub{background:#f2f2f2;padding:30px 0;overflow:hidden}.footer{width:100%;min-height:300px;background:url(img/fbg.png);padding-top:20px;padding-bottom:10px}.about-style p{text-indent:50px;font-family:'Sawarabi Mincho',sans-serif;font-size:16px;color:#000}.about-style h4{font-family:Alice,serif;font-weight:700;color:#004d80}hr.style-seven{overflow:visible;height:30px;border-style:solid;border-color:#33adff;border-width:1px 0 0 0;border-radius:20px;margin-bottom:-10px}.sub-line{font-family:Alice,serif;border-radius:5px!important}.slide-heading{font-family:'Sawarabi Mincho',sans-serif!important}.icci-logo img{display:block;margin:0 auto}.icci-logo{padding-top:18px}table ul li:before{content:'✓';font-size:18px;margin-right:10px;color:red}table thead th{text-align:center;font-family:Alice,serif;font-size:18px}.table__reg--h1{font-weight:700;font-family:Alice,serif;font-size:18px}tbody{text-align:center;font-family:Alice,serif;font-size:18px}.alert-ba h5{font-size:18px;line-height:1.5em;color:#4d4d4d}@media only screen and (max-width:700px){table thead th{text-align:left;font-family:Alice,serif;font-size:12px}.table__reg--h1{font-weight:700;font-family:Alice,serif;font-size:12px}tbody{text-align:left;font-family:Alice,serif;font-size:12px}.alert-ba h5{font-size:14px!important}}
   </style>
  </head>
  <section id="home">
  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<?php include("inc/header.php");  ?>  
+<!--header starts-->
+<?php include("inc/header.php") ?>
+<!--header-ends-->
  
  <div class="wrapper">
   
+  
 <!--call for paper section starts-->
-<section id="paper__sub">
-<div class="about">
-<div class="col-container">
-  <div class="col1">
-   <!--<div class="row">
-<img src="img/ieee-logo.jpg" alt="ieee-logo" class="img-responsive">
-</div>-->
-     <div class="head-style">
+<section id="call-paper " class="side-bg">
+<div class="container-fluid">
+<div class="row ">
+<div class="col-md-8 reg-pad ">
+<div class="about-style">
+<div class="head-style">
     <h3><span>Registration</span></h3><hr class="style-two">
     </div>
-    <div class="about-style paper__sub--con">
+    <div class=" paper__sub--con">
     
    <!-- <h4>Author/Co-Author Registration Fee Includes:</h4><hr class="style-seven">-->
   <!--  <ul>
@@ -199,9 +62,10 @@ color:#4d4d4d;
 <li>Certificates</li>
 </ul> <hr>-->
 <h4>Registration Fee</h4><hr class="style-seven">
-<div class="table-responsive">
-  <table class="table table-bordered table__reg">
-    <thead>
+
+<div class="table-responsive">          
+  <table class="table">
+  <thead>
       <tr class="danger">
        <th>Category</th>
         <th>Indian(Rupees)</th>
@@ -211,13 +75,13 @@ color:#4d4d4d;
     </thead>
     <tbody>
       <tr class="success">
-        <td align="center">Student (UG/PG) Author</td>
-        <td align="center">3000</td>
-        <td align="center">150</td>
+        <td >Student (UG/PG) Author</td>
+        <td >3000</td>
+        <td >150</td>
      
       </tr>
       <tr class="info" >
-      <td align="center">Research Scholars and Faculty Author</td>
+      <td>Research Scholars and Faculty Author</td>
         <td>6000</td>
         <td>200</td>
         <!--<td>$36</td>-->
@@ -238,13 +102,15 @@ color:#4d4d4d;
      
       </tr>
 
-
-      
     </tbody>
   </table>
-  <h4>Account Details</h4><hr class="style-seven">
+  </div>
+</div>
+<!--acc details starts-->
+
+<h4>Account Details</h4><hr class="style-seven">
 <div class="alert alert-info alert-ba">
-<h5><b>Center for Robotics & Artificial Intelligence</b><br> Indian Bank<br>
+<h5 class="bac"><b>Center for Robotics & Artificial Intelligence</b><br> Indian Bank<br>
 Selaiyur(Tambaran)<br>
 Current Account No.:6777898347<br>
 IFSC Code: IDIB000S246<br>
@@ -256,22 +122,13 @@ MICR Code:600019250
 </h5>
 
 </div>
-
-
+<!-- acc details ends-->
 </div>
 </div>
-
- 
-
-
-  </div>
-  <!--call for paper section ends-->
-  <div class="col2">
-  <?php include("inc/sidebar.php");  ?>  
-  </div>
-
+<div class="col-md-4 side-bg side-mar">
+<?php include("inc/sidebar.php"); ?>
 </div>
-
+</div><!--row ends here-->
 </div>
 </section>
 <!--about section ends-->
@@ -310,7 +167,7 @@ Chennai 600089.</h4>
   <h3>for paper submission please go to </h3>
 </div>
 <div class="col-md-3">
-  <h3><a href="#" class="btn btn-primary">Paper Submission</a></h3> 
+  <h3><a href="https://easychair.org/conferences/?conf=internationalconfere" class="btn btn-primary">Paper Submission</a></h3> 
 </div>
 <div class="col-md-3 psub__logo">
 <img src="img/icpair-logo.png" alt="iee-logo" class="img-responsive">
@@ -320,7 +177,7 @@ Chennai 600089.</h4>
 </div>
 <!--paper submission section ends here-->
 <!--footer section starts here-->
-<?php include("inc/footer.php");  ?>  
+<?php include("inc/footer.php");  ?>
 <!--footer section starts here-->
 
 </div><!--wrapper ends--->

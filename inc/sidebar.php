@@ -25,7 +25,7 @@
      </div>
     <div class="date-style"> 
     <ul class="ps">
-    <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="#">ICCI-2019 Brochure</a></span></li>
+    <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="#">ICRP-2020 Brochure</a></span></li>
     <li><span class="sym">&#9732;</span> &nbsp;<span class="date-tit"><a href="paperformat.doc", download>Paper Format
     </a></span></li><hr>
 </ul>

@@ -28,128 +28,7 @@ $active="contact";
     box-sizing: border-box;
 }
 
-.col-container {
-    display: table;
-    width: 100%;
-}
-.col1 {
-    display: table-cell;
-    padding: 16px;
-    width:70%;
-      background: #F5F5F5;
-      border-right:2px solid #fff;
-      border-radius: 5px;
-}
-
-@media only screen and (max-width: 600px) {
-    .col1 { 
-        display: block;
-        width: 100%;
-      
-    }
-}
-.col2{
-    display: table-cell;
-    padding: 16px;
-    width:30%;
-    background: #F5F5F5;
-    border-left:2px solid #fff;
-    border-radius: 5px;
-}
-
-@media only screen and (max-width: 600px) {
-    .col2{ 
-        display: block;
-        width: 100%;
-    }
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("img/par.jpg");
-
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding-top: 30px;
-    margin-bottom: -7px;
-  }
-
-.psub
-{
-      background: #f2f2f2;
-    padding: 30px 0;
-    overflow: hidden;
-}
-.footer
-{
-  width:100%;
-  min-height: 300px;
-  background: url("img/fbg.png");
-  padding-top: 20px;
-  padding-bottom: 10px;
-
-}
-.about-style p
-{
-      text-indent: 50px;
-font-family: 'Sawarabi Mincho', sans-serif;
-      font-size: 16px;
-      color: #000000;
-
-    }
-.about-style h4
-{
-    font-family: 'Alice', serif;
-    font-weight: bold;
-    color: #004d80;
-}
-
-hr.style-seven {
-    overflow: visible; /* For IE */
-    height: 30px;
-    border-style: solid;
-    border-color: #33adff;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-    margin-bottom: -10px;
-}
-
-.sub-line
-{
-
- font-family: 'Alice', serif;
- border-radius: 5px!important;
-
-
-}
-.slide-heading
-{
- 
-    font-family: 'Sawarabi Mincho', sans-serif!important;
-}
-.icci-logo img
-{
-  display: block;
-  margin:0px auto;
-}
-.icci-logo
-{
-  padding-top: 18px;
-}
-table ul li:before {
-
-  content: '✓';
-  font-size: 18px;
-margin-right : 10px;
-color: red;
-}
+.col-container{display:table;width:100%}.col1{display:table-cell;padding:16px;width:70%;background:#f5f5f5;border-right:2px solid #fff;border-radius:5px}@media only screen and (max-width:600px){.col1{display:block;width:100%}}.col2{display:table-cell;padding:16px;width:30%;background:#f5f5f5;border-left:2px solid #fff;border-radius:5px}@media only screen and (max-width:600px){.col2{display:block;width:100%}}.parallax{background-image:url(img/par.jpg);min-height:500px;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover;text-align:center;padding-top:30px;margin-bottom:-7px}.psub{background:#f2f2f2;padding:30px 0;overflow:hidden}.footer{width:100%;min-height:300px;background:url(img/fbg.png);padding-top:20px;padding-bottom:10px}.about-style p{text-indent:50px;font-family:'Sawarabi Mincho',sans-serif;font-size:16px;color:#000}.about-style h4{font-family:Alice,serif;font-weight:700;color:#004d80}hr.style-seven{overflow:visible;height:30px;border-style:solid;border-color:#33adff;border-width:1px 0 0 0;border-radius:20px;margin-bottom:-10px}.sub-line{font-family:Alice,serif;border-radius:5px!important}.slide-heading{font-family:'Sawarabi Mincho',sans-serif!important}.icci-logo img{display:block;margin:0 auto}.icci-logo{padding-top:18px}table ul li:before{content:'✓';font-size:18px;margin-right:10px;color:red}
 
 
   </style>
@@ -175,15 +54,11 @@ color: red;
     </div>
     <ul class="contact__info">
                                     <li><i class="fa fa-map-marker"></i> <p><strong>Address</strong>: Bharath Institute of Higher Education & Research.<br> &nbsp;&nbsp;Selaiyur, Chennai-600073</span>  </p></li>
-                                    <li><i class="fa fa-user"></i> <p><strong>Contact Number</strong>: +91 9566203308, +91 7010344024</p></li>
-              
-              
-              <li><i class="fa fa-phone"></i> <p><strong>Phone</strong>: For any queries please call to: <br>&nbsp;&nbsp;Monday to Saturday 9:00 AM to 5:00 PM Indian Timings. </p>
-               </li>
+                                    <li><i class="fa fa-phone fa-cus"></i>  <p><strong>Contact Number</strong>: +91 9566203308, +91 7010344024</p></li>
 
               
-              <li><i class="fa fa-envelope"></i> <p><strong>Email</strong>: icpair@bharathuniv.ac.in</p></li>
-                                    <li><i class="fa fa-globe"></i> <p><strong>Web</strong>: <a href="#" target="_blank">www.bharathuniv.ac.in</a></p></li>
+              <li><i class="fa fa-envelope fa-cus"></i> <p><strong>Email</strong>: icpair@bharathuniv.ac.in</p></li>
+                                    <li><i class="fa fa-globe fa-cus"></i> <p><strong>Web</strong>: <a href="#" target="_blank">www.bharathuniv.ac.in</a></p></li>
                                 </ul> 
 </div>
 </div>
@@ -260,7 +135,7 @@ Chennai 600089.</h4>
   <h3>for paper submission please go to </h3>
 </div>
 <div class="col-md-3">
-  <h3><a href="#" class="btn btn-primary">Paper Submission</a></h3> 
+  <h3><a href="https://easychair.org/conferences/?conf=internationalconfere" class="btn btn-primary">Paper Submission</a></h3> 
 </div>
 <div class="col-md-3 psub__logo">
 <img src="img/icpair-logo.png" alt="iee-logo" class="img-responsive">

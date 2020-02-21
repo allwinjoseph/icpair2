@@ -957,6 +957,7 @@ font-family: 'Alice', serif;
 .con__head
 {
   background: linear-gradient(45deg, rgba(2,38,60,1) 0%, rgba(255,255,255,0.95) 22%, rgba(255,255,255,0.85) 64%, rgba(255,255,255,0.83) 75%, rgba(2,38,60,0.77) 100%); height:auto; color:#fff;
+  width:100%;
 }
 .paper__sub--con ul li
 {
@@ -1132,6 +1133,8 @@ border-left:5px solid #2662D9;
 
     }
 }
+
+
 .team table tr td
 {
   line-height: 2em;
