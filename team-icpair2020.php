@@ -87,7 +87,7 @@ $active="team";
 
 
 
-        Ms. Aymasheva Yana, Director,<br> Department of International Programs,<br> Ural Federal University, Russia.<br><br>
+        Ms. Iana Vysotskaia, Director,<br> Department of International Programs,<br> Ural Federal University, Russia.<br><br>
         Dr. T. X. A. Ananth, Director,<br>International Relations office,<br> St.josephs university of technology, <br> Tanzania, Africa.<br><br>
 
         Dr. Baskar Rao, Managing Director,<br>
